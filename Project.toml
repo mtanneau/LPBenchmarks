@@ -1,0 +1,4 @@
+name = "TulipBenchmarks"
+uuid = "6f9bd2d6-c8d3-11e9-3563-0bd1f9ab927a"
+authors = ["mtanneau <mathieu.tanneau@gmail.com>"]
+version = "0.1.0"
