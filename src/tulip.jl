@@ -23,12 +23,13 @@ function run_tulip(fname::String)
 
     # TODO: recover and extract primal solution
 
-    # Done.
-    return timer
+    # Display timing info
+    println()
+    display(timer)
+    println()
+    return nothing
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    t = run_tulip(ARGS[1])
-    display(t)
-    println()
+    run_tulip(ARGS[1])
 end

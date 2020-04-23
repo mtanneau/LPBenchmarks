@@ -20,12 +20,13 @@ function run_glpk(fname::String)
         x[j] = GLPK.ipt_col_prim(glpk, j)
     end
 
-    # TODO: Export solution
-    return timer
+    # Display timing info
+    println()
+    display(timer)
+    println()
+    return nothing
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    t = run_glpk(ARGS[1])
-    display(t)
-    println()
+    run_glpk(ARGS[1])
 end

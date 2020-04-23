@@ -29,11 +29,13 @@ function run_ecos(fname::String)
     # ECOS' internal solve time (excluding conversion) is displayed in log
     @timeit timer "Solve" MOI.optimize!(bridged)
 
-    return timer
+    # Display timing info
+    println()
+    display(timer)
+    println()
+    return nothing
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    t = run_ecos(ARGS[1])
-    display(t)
-    println()
+    run_ecos(ARGS[1])
 end

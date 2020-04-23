@@ -12,12 +12,13 @@ function run_clp(fname::String)
 
     @timeit timer "Solve" Clp.ClpCInterface.initial_barrier_no_cross_solve(clp)
 
-    # TODO: get solution & export it
-    return timer
+    # Display timing info
+    println()
+    display(timer)
+    println()
+    return nothing
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    t = run_clp(ARGS[1])
-    display(t)
-    println()
+    run_clp(ARGS[1])
 end
