@@ -17,6 +17,7 @@ function run_mosek(fname::String)
     Mosek.putstreamfunc(task, Mosek.MSK_STREAM_LOG, print)
     Mosek.putintparam(task, Mosek.MSK_IPAR_INTPNT_BASIS, 0)
     Mosek.putintparam(task, Mosek.MSK_IPAR_NUM_THREADS, 1)
+    Mosek.putdouparam(task, Mosek.MSK_DPAR_OPTIMIZER_MAX_TIME, 10_000)
 
     # Solve instance
     @timeit timer "Solve" Mosek.optimize(task)

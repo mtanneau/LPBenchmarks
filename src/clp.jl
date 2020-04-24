@@ -12,6 +12,7 @@ function run_clp(fname::String)
     @timeit timer "Read" Clp.ClpCInterface.read_mps(clp, fname)
 
     # TODO: remove integer variables if any
+    Clp.ClpCInterface.set_maximum_seconds(clp, 10_000)
     @timeit timer "Solve" Clp.ClpCInterface.initial_solve_with_options(clp, options)
 
     # TODO: extract solver status and solution

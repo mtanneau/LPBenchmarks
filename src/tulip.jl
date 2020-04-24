@@ -9,11 +9,14 @@ import Tulip
 Run benchmark for Tulip.
 """
 function run_tulip(fname::String)
+
     timer = TimerOutput()
     BLAS.set_num_threads(1)
 
     m = Tulip.Model{Float64}()
     m.params.OutputLevel = 1
+    m.params.Threads = 1
+    m.params.TimeLimit = 10_000
 
     # Read file
     @timeit timer "Read" Tulip.load_problem!(m, fname)
