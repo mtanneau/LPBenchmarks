@@ -34,10 +34,18 @@ uuid = "a076750e-1247-5638-91d2-ce28b192dca0"
 version = "0.6.5"
 
 [[Clp]]
-deps = ["BinaryProvider", "Libdl", "LinearAlgebra", "MathOptInterface", "MathProgBase", "SparseArrays"]
-git-tree-sha1 = "0872354eaeb05a86e400f45abaac1dc93da7bf76"
+deps = ["BinaryProvider", "Clp_jll", "Libdl", "LinearAlgebra", "MathOptInterface", "MathProgBase", "SparseArrays"]
+git-tree-sha1 = "dfaabbde22abbdf30a8d35f1ff49db174faa4901"
+repo-rev = "master"
+repo-url = "https://github.com/JuliaOpt/Clp.jl.git"
 uuid = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
 version = "0.7.1"
+
+[[Clp_jll]]
+deps = ["CoinUtils_jll", "CompilerSupportLibraries_jll", "Libdl", "OpenBLAS32_jll", "Osi_jll", "Pkg"]
+git-tree-sha1 = "7fec44e2cf907d339d2bcc2f1dffe611401e5560"
+uuid = "06985876-5285-5a41-9fcb-8948a742cc53"
+version = "1.17.6+4"
 
 [[CodecBzip2]]
 deps = ["Bzip2_jll", "Libdl", "TranscodingStreams"]
@@ -50,6 +58,18 @@ deps = ["TranscodingStreams", "Zlib_jll"]
 git-tree-sha1 = "ded953804d019afa9a3f98981d99b33e3db7b6da"
 uuid = "944b1d66-785c-5afd-91f1-9de20f533193"
 version = "0.7.0"
+
+[[CoinUtils_jll]]
+deps = ["CompilerSupportLibraries_jll", "Libdl", "OpenBLAS32_jll", "Pkg"]
+git-tree-sha1 = "a199684b426eb6c1eeac5655c8c85012537e8a8d"
+uuid = "be027038-0da8-5614-b30d-e42594cb92df"
+version = "2.11.3+2"
+
+[[CompilerSupportLibraries_jll]]
+deps = ["Libdl", "Pkg"]
+git-tree-sha1 = "7c4f882c41faa72118841185afc58a2eb00ef612"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version = "0.3.3+0"
 
 [[Dates]]
 deps = ["Printf"]
@@ -168,11 +188,23 @@ git-tree-sha1 = "e1edd618a8f39d16f8595dd622a63b25f759cf8a"
 uuid = "d8a4904e-b15c-11e9-3269-09a3773c0cb0"
 version = "0.2.9"
 
+[[OpenBLAS32_jll]]
+deps = ["CompilerSupportLibraries_jll", "Libdl", "Pkg"]
+git-tree-sha1 = "1d47f4a7d7e5d283cf40c839905a70531e633ddc"
+uuid = "656ef2d0-ae68-5445-9ca0-591084a874a2"
+version = "0.3.9+2"
+
 [[OrderedCollections]]
 deps = ["Random", "Serialization", "Test"]
 git-tree-sha1 = "c4c13474d23c60d20a67b217f1d7f22a40edf8f1"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 version = "1.1.0"
+
+[[Osi_jll]]
+deps = ["CoinUtils_jll", "CompilerSupportLibraries_jll", "Libdl", "OpenBLAS32_jll", "Pkg"]
+git-tree-sha1 = "c7af9fbb50ecf614d54f4269570c3eb927aa4d4e"
+uuid = "7da25872-d9ce-5375-a4d3-7a845f58efdd"
+version = "0.108.5+2"
 
 [[Parsers]]
 deps = ["Dates", "Test"]
@@ -190,7 +222,7 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[QPSReader]]
 deps = ["Logging"]
-path = "../QPSReader.jl"
+git-tree-sha1 = "94c9e72bced46405d53a7dd842038736ba96acc4"
 uuid = "10f199a5-22af-520b-b891-7ce84a7b1bd0"
 version = "0.1.0"
 
@@ -240,8 +272,10 @@ uuid = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
 version = "0.9.5"
 
 [[Tulip]]
-deps = ["BenchmarkTools", "LDLFactorizations", "LinearAlgebra", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "Test"]
-path = "../Tulip.jl"
+deps = ["LDLFactorizations", "LinearAlgebra", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "Test"]
+git-tree-sha1 = "479a1c6941b352d5e500fe40b40a7158ac372caf"
+repo-rev = "Presolve"
+repo-url = "https://github.com/ds4dm/Tulip.jl.git"
 uuid = "6dd1b50a-3aae-11e9-10b5-ef983d2400fa"
 version = "0.3.0"
 

@@ -1,3 +1,4 @@
 dat/
 JuliaLP.so
-precomp.jl
+precompile.jl
+logs/

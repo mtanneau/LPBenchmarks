@@ -4,6 +4,12 @@
 
 1. Install Julia
 2. Install commercial solvers
+3. Clp and Tulip need a special branch (for now)
+    ```julia
+    pkg> add Clp#master
+    pkg> add Tulip#Presolve
+    ```
+    
 3. Instantiate the environment. This will download and build open-source solvers Clp, ECOS, GLPK and Tulip.
 
 ## Download instances
