@@ -75,6 +75,10 @@ version = "0.3.3+0"
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
+[[DelimitedFiles]]
+deps = ["Mmap"]
+uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
 [[Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -86,10 +90,24 @@ uuid = "e2685f51-7e38-5353-a97d-a921fd2c8199"
 version = "0.11.0"
 
 [[GLPK]]
-deps = ["BinaryProvider", "Libdl", "MathOptInterface", "SparseArrays"]
-git-tree-sha1 = "3420033e843e140d9237238d69937a5bc7292e5a"
+deps = ["BinaryProvider", "GLPK_jll", "Libdl", "MathOptInterface", "SparseArrays"]
+git-tree-sha1 = "86573ecb852e303b209212046af44871f1c0e49c"
+repo-rev = "master"
+repo-url = "https://github.com/JuliaOpt/GLPK.jl.git"
 uuid = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
-version = "0.12.1"
+version = "0.13.0"
+
+[[GLPK_jll]]
+deps = ["GMP_jll", "Libdl", "Pkg"]
+git-tree-sha1 = "ccc855de74292e478d4278e3a6fdd8212f75e81e"
+uuid = "e8aa6df9-e6ca-548a-97ff-1f85fc5b8b98"
+version = "4.64.0+0"
+
+[[GMP_jll]]
+deps = ["Libdl", "Pkg"]
+git-tree-sha1 = "4dd9301d3a027c05ec403e756ee7a60e3c367e5d"
+uuid = "781609d7-10c4-51f6-84f2-b8444358ff6d"
+version = "6.1.2+5"
 
 [[Gurobi]]
 deps = ["Libdl", "LinearAlgebra", "MathOptInterface", "MathProgBase", "SparseArrays"]
@@ -182,6 +200,12 @@ git-tree-sha1 = "ad44e4a9b46f21d1e96295b1559de42d41c41553"
 uuid = "6405355b-0ac2-5fba-af84-adbd65488c0e"
 version = "1.1.2"
 
+[[MosekTools]]
+deps = ["MathOptInterface", "Mosek", "Printf"]
+git-tree-sha1 = "32dfda03b6bfce5fa1d484091026c5faa7457ce2"
+uuid = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
+version = "0.9.3"
+
 [[MutableArithmetics]]
 deps = ["LinearAlgebra", "SparseArrays", "Test"]
 git-tree-sha1 = "e1edd618a8f39d16f8595dd622a63b25f759cf8a"
@@ -222,9 +246,9 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[QPSReader]]
 deps = ["Logging"]
-git-tree-sha1 = "94c9e72bced46405d53a7dd842038736ba96acc4"
+git-tree-sha1 = "d6d5660ac4f59f3b7e5e3ac444e3272881ac9cfc"
 uuid = "10f199a5-22af-520b-b891-7ce84a7b1bd0"
-version = "0.1.0"
+version = "0.1.1"
 
 [[REPL]]
 deps = ["InteractiveUtils", "Markdown", "Sockets"]
@@ -273,11 +297,9 @@ version = "0.9.5"
 
 [[Tulip]]
 deps = ["LDLFactorizations", "LinearAlgebra", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "Test"]
-git-tree-sha1 = "479a1c6941b352d5e500fe40b40a7158ac372caf"
-repo-rev = "Presolve"
-repo-url = "https://github.com/ds4dm/Tulip.jl.git"
+git-tree-sha1 = "e8802ceeed660c2a70bf4764094b8c161c788230"
 uuid = "6dd1b50a-3aae-11e9-10b5-ef983d2400fa"
-version = "0.3.0"
+version = "0.4.0"
 
 [[UUIDs]]
 deps = ["Random", "SHA"]

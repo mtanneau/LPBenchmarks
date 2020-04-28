@@ -31,7 +31,7 @@ julia --trace-compile=precompile.jl --project snoop.jl
 
 ```julia
 julia> using PackageCompiler
-julia> PackageCompiler.create_sysimage([:MathOptInterface, :TimerOutputs, :Clp, :ECOS, :GLPK, :Mosek, :Tulip], project=".", sysimage_path="JuliaLP.so", precompile_statements_file="precompile.jl");
+julia> PackageCompiler.create_sysimage([:MathOptInterface, :Clp, :CPLEX, :ECOS, :GLPK, :Gurobi, :Mosek, :MosekTools, :Tulip], project=".", sysimage_path="JuliaLP.so", precompile_statements_file="precompile.jl");
 ```
 
 3. Running the script

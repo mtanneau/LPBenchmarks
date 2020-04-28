@@ -1,29 +1,19 @@
-using TimerOutputs
 import GLPK
 
+include("LPBenchmark.jl")
+
 function run_glpk(fname::String)
-    timer = TimerOutput()
+    glpk = GLPK.Optimizer(method=GLPK.INTERIOR)
 
-    glpk = GLPK.Prob()
+    load_problem!(glpk, fname)
 
-    @timeit timer "Read" GLPK.read_mps(glpk, 2, fname)
+    MOI.set(glpk, MOI.TimeLimitSec(), 10_000)
+    MOI.set(glpk, MOI.RawParameter("msg_lev"), 3)
 
-    # TODO: remove integer variables if any
-
-    @timeit timer "Solve" GLPK.interior(glpk)
-
-    # Recover primal solution
-    m = GLPK.get_num_rows(glpk)
-    n = GLPK.get_num_cols(glpk)
-    x = Vector{Float64}(undef, n)
-    for j in 1:n
-        x[j] = GLPK.ipt_col_prim(glpk, j)
-    end
+    # Solve the problem
+    run(glpk)
 
     # Display timing info
-    println()
-    display(timer)
-    println()
     return nothing
 end
 

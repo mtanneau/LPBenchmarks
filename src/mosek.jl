@@ -1,5 +1,7 @@
-using TimerOutputs
 import Mosek
+import MosekTools
+
+include("LPBenchmark.jl")
 
 """
     run_mosek
@@ -8,29 +10,19 @@ Run benchmark for Tulip.
 """
 function run_mosek(fname::String)
 
-    timer = TimerOutput()
-
     # Read file
-    @timeit timer "Read" task = Mosek.maketask(filename=fname)
+    mosek = Mosek.Optimizer()
+    load_problem!(mosek, fname)
 
-    # Activate output
-    Mosek.putstreamfunc(task, Mosek.MSK_STREAM_LOG, print)
-    Mosek.putintparam(task, Mosek.MSK_IPAR_INTPNT_BASIS, 0)
-    Mosek.putintparam(task, Mosek.MSK_IPAR_NUM_THREADS, 1)
-    Mosek.putdouparam(task, Mosek.MSK_DPAR_OPTIMIZER_MAX_TIME, 10_000)
+    MOI.set(mosek, MOI.Silent(), false)
+    MOI.set(mosek, MOI.TimeLimitSec(), 10_000)
+    MOI.set(mosek, MOI.RawParameter("MSK_IPAR_NUM_THREADS"), 1)
+    MOI.set(mosek, MOI.RawParameter("MSK_IPAR_INTPNT_BASIS"), 0)
+    MOI.set(mosek, MOI.RawParameter("MSK_IPAR_OPTIMIZER"), 4)  # Use the interior-point
 
     # Solve instance
-    @timeit timer "Solve" Mosek.optimize(task)
+    run(mosek)
 
-    # TODO: recover solver status and solution
-
-    # Display timing info
-    flush(stdout)
-    flush(stderr)
-    sleep(0.10)
-    println()
-    display(timer)
-    println()
     return nothing
 end
 

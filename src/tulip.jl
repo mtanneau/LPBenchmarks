@@ -1,35 +1,28 @@
 using LinearAlgebra
 
-using TimerOutputs
 import Tulip
+
+include("LPBenchmark.jl")
 
 """
     run_tulip
 
 Run benchmark for Tulip.
 """
-function run_tulip(fname::String)
+function run_tulip(fname::String, fsol::String="")
 
-    timer = TimerOutput()
     BLAS.set_num_threads(1)
 
-    m = Tulip.Model{Float64}()
-    m.params.OutputLevel = 1
-    m.params.Threads = 1
-    m.params.TimeLimit = 10_000
+    tulip = Tulip.Optimizer()
 
     # Read file
-    @timeit timer "Read" Tulip.load_problem!(m, fname)
+    load_problem!(tulip, fname)
+    MOI.set(tulip, MOI.Silent(), false)
+    MOI.set(tulip, MOI.NumberOfThreads(), 1)
+    MOI.set(tulip, MOI.TimeLimitSec(), 10_000)
 
     # Solve instance
-    @timeit timer "Solve" Tulip.optimize!(m)
-
-    # TODO: recover and extract primal solution
-
-    # Display timing info
-    println()
-    display(timer)
-    println()
+    run(tulip)
     return nothing
 end
 
