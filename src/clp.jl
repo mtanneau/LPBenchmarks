@@ -4,7 +4,9 @@ include("LPBenchmark.jl")
 
 function run_clp(fname::String)
     clp = Clp.Optimizer()
-    bridged = MOIB.full_bridge_optimizer(clp, Float64)
+    cache = MOIU.UniversalFallback(MOIU.Model{Float64}())
+    cached = MOIU.CachingOptimizer(cache, clp)
+    bridged = MOIB.full_bridge_optimizer(cached, Float64)
 
     load_problem!(bridged, fname)
 
