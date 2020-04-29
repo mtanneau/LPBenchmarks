@@ -19,7 +19,7 @@ function load_problem!(m::MOI.AbstractOptimizer, fname::String)
     for cidx in MOI.get(mps, MOI.ListOfConstraintIndices{MOI.SingleVariable, MOI.ZeroOne}())
         MOI.delete(mps, cidx)
         # Add lower and upper bounds
-        v = cidx.value
+        v = MOI.VariableIndex(cidx.value)
         MOI.add_constraint(mps, MOI.SingleVariable(v), MOI.GreaterThan(0.0))
         MOI.add_constraint(mps, MOI.SingleVariable(v), MOI.LessThan(1.0))
     end

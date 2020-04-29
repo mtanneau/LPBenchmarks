@@ -7,19 +7,20 @@ include("LPBenchmark.jl")
 function run_cplex(fname::String, fsol::String="")
 
     cplex = CPLEX.Optimizer()
+    bridged = MOIB.full_bridge_optimizer(cplex, Float64)
 
     # Read file
-    load_problem!(cplex, fname)
+    load_problem!(bridged, fname)
 
     # MOI parameters
-    MOI.set(cplex, MOI.Silent(), false)
-    MOI.set(cplex, MOI.TimeLimitSec(), 10_000)
-    MOI.set(cplex, MOI.RawParameter("CPXPARAM_Threads"), 1)  # Single threads
-    MOI.set(cplex, MOI.RawParameter("CPXPARAM_SolutionType"), 2)  # No crossover
-    MOI.set(cplex, MOI.RawParameter("CPXPARAM_LPMethod"), 4)  # barrier
+    MOI.set(bridged, MOI.Silent(), false)
+    MOI.set(bridged, MOI.TimeLimitSec(), 10_000)
+    MOI.set(bridged, MOI.RawParameter("CPXPARAM_Threads"), 1)  # Single threads
+    MOI.set(bridged, MOI.RawParameter("CPXPARAM_SolutionType"), 2)  # No crossover
+    MOI.set(bridged, MOI.RawParameter("CPXPARAM_LPMethod"), 4)  # barrier
 
     # Solve instance
-    run(cplex)
+    run(bridged)
     return nothing
 end
 

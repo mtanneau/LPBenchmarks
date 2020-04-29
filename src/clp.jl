@@ -4,15 +4,16 @@ include("LPBenchmark.jl")
 
 function run_clp(fname::String)
     clp = Clp.Optimizer()
-    
-    load_problem!(clp, fname)
+    bridged = MOIB.full_bridge_optimizer(clp, Float64)
+
+    load_problem!(bridged, fname)
 
     # Set some parameters
-    MOI.set(clp, MOI.TimeLimitSec(), 10_000)
-    MOI.set(clp, MOI.RawParameter("SolveType"), 4)  # barrier, no crossover
+    MOI.set(bridged, MOI.TimeLimitSec(), 10_000)
+    MOI.set(bridged, MOI.RawParameter("SolveType"), 4)  # barrier, no crossover
 
     # Solve the problem
-    run(clp)
+    run(bridged)
 
     # Display timing info
     return nothing

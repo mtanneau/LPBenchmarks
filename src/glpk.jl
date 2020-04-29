@@ -4,14 +4,15 @@ include("LPBenchmark.jl")
 
 function run_glpk(fname::String)
     glpk = GLPK.Optimizer(method=GLPK.INTERIOR)
+    bridged = MOIB.full_bridge_optimizer(glpk, Float64)
 
     load_problem!(glpk, fname)
 
-    MOI.set(glpk, MOI.TimeLimitSec(), 10_000)
-    MOI.set(glpk, MOI.RawParameter("msg_lev"), 3)
+    MOI.set(bridged, MOI.TimeLimitSec(), 10_000)
+    MOI.set(bridged, MOI.RawParameter("msg_lev"), 3)
 
     # Solve the problem
-    run(glpk)
+    run(bridged)
 
     # Display timing info
     return nothing
