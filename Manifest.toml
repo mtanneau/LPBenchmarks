@@ -40,9 +40,9 @@ version = "0.6.5"
 
 [[Clp]]
 deps = ["BinaryProvider", "CEnum", "Clp_jll", "Libdl", "MathOptInterface", "SparseArrays"]
-git-tree-sha1 = "cb38198edf176b720461273fd4a6c678ef9b2ec5"
-repo-rev = "master"
-repo-url = "https://github.com/JuliaOpt/Clp.jl.git"
+git-tree-sha1 = "37ce9db80c12ea4b2d607f9beb43951b8751db35"
+repo-rev = "MOIFix"
+repo-url = "https://github.com/mtanneau/Clp.jl"
 uuid = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
 version = "0.8.0"
 
@@ -97,8 +97,6 @@ version = "0.11.0"
 [[GLPK]]
 deps = ["BinaryProvider", "GLPK_jll", "Libdl", "MathOptInterface", "SparseArrays"]
 git-tree-sha1 = "86573ecb852e303b209212046af44871f1c0e49c"
-repo-rev = "master"
-repo-url = "https://github.com/JuliaOpt/GLPK.jl.git"
 uuid = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 version = "0.13.0"
 
