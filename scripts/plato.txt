@@ -1,4 +1,3 @@
-L1_sixm1000obs.mps
 L1_sixm250obs.mps
 Linf_520c.mps
 brazil3.mps
