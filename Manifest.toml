@@ -310,6 +310,14 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
+[[UnitBlockAngular]]
+deps = ["LinearAlgebra", "SparseArrays", "Tulip"]
+git-tree-sha1 = "500ca7fa53b99719c2cd189a9de5f01646750cec"
+repo-rev = "master"
+repo-url = "https://github.com/mtanneau/UnitBlockAngular.jl"
+uuid = "14f8afec-b63c-4272-9b79-c31d0438941a"
+version = "0.1.0"
+
 [[WinReg]]
 deps = ["Test"]
 git-tree-sha1 = "808380e0a0483e134081cc54150be4177959b5f4"

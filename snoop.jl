@@ -1,10 +1,11 @@
-include(joinpath(@__DIR__, "src/clp.jl"))
-include(joinpath(@__DIR__, "src/cplex.jl"))
-include(joinpath(@__DIR__, "src/ecos.jl"))
-include(joinpath(@__DIR__, "src/glpk.jl"))
-include(joinpath(@__DIR__, "src/gurobi.jl"))
-include(joinpath(@__DIR__, "src/mosek.jl"))
-include(joinpath(@__DIR__, "src/tulip.jl"))
+# Mittelman instances
+include(joinpath(@__DIR__, "src/LP/clp.jl"))
+include(joinpath(@__DIR__, "src/LP/cplex.jl"))
+include(joinpath(@__DIR__, "src/LP/ecos.jl"))
+include(joinpath(@__DIR__, "src/LP/glpk.jl"))
+include(joinpath(@__DIR__, "src/LP/gurobi.jl"))
+include(joinpath(@__DIR__, "src/LP/mosek.jl"))
+include(joinpath(@__DIR__, "src/LP/tulip.jl"))
 
 for finst in ["afiro.mps", "25fv47.mps", "pds-02.mps", "qap8.mps", "pilot.mps"]
     fname = joinpath(@__DIR__, "dat/netlib", finst)
@@ -16,4 +17,22 @@ for finst in ["afiro.mps", "25fv47.mps", "pds-02.mps", "qap8.mps", "pilot.mps"]
     run_gurobi(fname)
     run_mosek(fname)
     run_tulip(fname)
+end
+
+
+# Structured LP instances
+include("src/RMP/cplex.jl")
+include("src/RMP/gurobi.jl")
+include("src/RMP/mosek.jl")
+include("src/RMP/tulip.jl")
+include("src/RMP/tulip_uba.jl")
+
+for finst in ["4node_32_10.mps", "DER_24_128_10.mps"]
+    frmp = joinpath(@__DIR__, "dat/rmp", finst)
+
+    run_rmp_cplex(frmp)
+    run_rmp_gurobi(frmp)
+    run_rmp_mosek(frmp)
+    run_rmp_tulip(frmp)
+    run_rmp_tulip_uba(frmp)
 end
