@@ -1,8 +1,8 @@
 using Printf
 using Statistics
 
-const LOGDIR = joinpath(@__DIR__, "../logs")
-const PLATO_INSTANCES = readlines(joinpath(@__DIR__, "plato.txt"))
+const LOGDIR = joinpath(@__DIR__, "../../logs/mittelman")
+const PLATO_INSTANCES = readlines(joinpath(@__DIR__, "../plato.txt"))
 const SOLVERS = ["Clp", "CPLEX", "ECOS", "GLPK", "Gurobi", "Mosek", "Tulip"]
 const SUFFIX = Dict{String, String}(
     "Clp" => ".clp",
