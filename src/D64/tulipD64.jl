@@ -6,15 +6,13 @@ import Tulip
 using DoubleFloats
 
 function tulip_d64(finst, ϵ)
-    tlp = Tulip.Model{Float64}()
+    tlp = Tulip.Model{Double64}()
     Tulip.load_problem!(tlp, finst)
 
     # Set parameters
     tlp.params.OutputLevel = 1
     tlp.params.Presolve = 1
     tlp.params.BarrierIterationsLimit = 500
-
-    tlp.params.KKTOptions = Tulip.KKT.SolverOptions(Tulip.KKT.Cholmod_SymPosDef)
 
     # Set tolerances
     tlp.params.BarrierTolerancePFeas = ϵ
