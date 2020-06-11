@@ -12,7 +12,7 @@
 LPBDIR="/home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks"
 
 # Read list of instances
-mapfile -t inst < $LPBDIR/scripts/plato.txt
+mapfile -t inst < $LPBDIR/exp/plato.txt
 
 # Run Clp on each instance
-julia --sysimage=$LPBDIR/JuliaLP.so --project=$LPBDIR $LPBDIR/src/cplex.jl $LPBDIR/dat/plato/${inst[${SLURM_ARRAY_TASK_ID}-1]} > $LPBDIR/logs/cplex/${inst[${SLURM_ARRAY_TASK_ID}-1]}.cpx 2>&1
+julia --sysimage=$LPBDIR/JuliaLP.so --project=$LPBDIR $LPBDIR/src/LP/cplex.jl $LPBDIR/dat/plato/${inst[${SLURM_ARRAY_TASK_ID}-1]} > $LPBDIR/logs/mittelman/cplex/${inst[${SLURM_ARRAY_TASK_ID}-1]}.cpx 2>&1
