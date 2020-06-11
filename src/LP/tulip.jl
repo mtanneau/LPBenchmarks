@@ -20,6 +20,7 @@ function run_tulip(fname::String, fsol::String="")
     MOI.set(tulip, MOI.Silent(), false)
     MOI.set(tulip, MOI.NumberOfThreads(), 1)
     MOI.set(tulip, MOI.TimeLimitSec(), 10_000)
+    MOI.set(tulip, MOI.RawParameter("BarrierIterationsLimit"), 500)
 
     # Solve instance
     run(tulip)
