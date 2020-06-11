@@ -40,7 +40,7 @@ version = "0.6.5"
 
 [[Clp]]
 deps = ["BinaryProvider", "CEnum", "Clp_jll", "Libdl", "MathOptInterface", "SparseArrays"]
-git-tree-sha1 = "37ce9db80c12ea4b2d607f9beb43951b8751db35"
+git-tree-sha1 = "937362f4ff1fd6adf9037edcb45d872f0f9027a0"
 repo-rev = "MOIFix"
 repo-url = "https://github.com/mtanneau/Clp.jl"
 uuid = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
@@ -176,10 +176,10 @@ uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.0"
 
 [[JSONSchema]]
-deps = ["BinaryProvider", "HTTP", "JSON"]
-git-tree-sha1 = "b0a7f9328967df5213691d318a03cf70ea8c76b1"
+deps = ["HTTP", "JSON", "ZipFile"]
+git-tree-sha1 = "832a4d327d9dafdae55a6ecae04f9997c83615cc"
 uuid = "7d188eb4-7ad8-530c-ae41-71a32a6d4692"
-version = "0.2.0"
+version = "0.3.0"
 
 [[LDLFactorizations]]
 deps = ["AMD", "LinearAlgebra", "SparseArrays", "Test"]
@@ -213,9 +213,9 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 [[MathOptInterface]]
 deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "JSON", "JSONSchema", "LinearAlgebra", "MutableArithmetics", "OrderedCollections", "SparseArrays", "Test", "Unicode"]
-git-tree-sha1 = "27f2ef85879b8f1d144266ab44f076ba0dfbd8a1"
+git-tree-sha1 = "cd2049c055c7d192a235670d50faa375361624ba"
 uuid = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-version = "0.9.13"
+version = "0.9.14"
 
 [[MathProgBase]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -375,9 +375,9 @@ version = "1.2.0"
 
 [[TimerOutputs]]
 deps = ["Printf"]
-git-tree-sha1 = "0cc8db57cb537191b02948d4fabdc09eb7f31f98"
+git-tree-sha1 = "f458ca23ff80e46a630922c555d838303e4b9603"
 uuid = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
-version = "0.5.5"
+version = "0.5.6"
 
 [[TranscodingStreams]]
 deps = ["Random", "Test"]
@@ -417,6 +417,12 @@ deps = ["Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
 git-tree-sha1 = "987c02a43fa10a491a5f0f7c46a6d3559ed6a8e2"
 uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
 version = "2.9.9+4"
+
+[[ZipFile]]
+deps = ["Libdl", "Printf", "Zlib_jll"]
+git-tree-sha1 = "254975fef2fc526583bb9b7c9420fe66ffe09f2f"
+uuid = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+version = "0.9.2"
 
 [[Zlib_jll]]
 deps = ["Libdl", "Pkg"]
