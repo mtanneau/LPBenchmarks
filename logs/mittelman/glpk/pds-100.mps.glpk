@@ -1,0 +1,17 @@
+Original LP has 156243 row(s), 505360 column(s), and 1086785 non-zero(s)
+Working LP has 365890 row(s), 724224 column(s), and 1515296 non-zero(s)
+Matrix A has 1515296 non-zeros
+Matrix S = A*A' has 1518585 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 122185975 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   1.977669917e+12; rpi =  1.6e+02; rdi =  2.8e+01; gap =  1.0e+00
+  1: obj =   4.735032412e+11; rpi =  4.1e+01; rdi =  5.1e+00; gap =  6.2e+00
+  2: obj =   2.598314327e+11; rpi =  2.2e+01; rdi =  1.6e+00; gap =  1.1e+01
+  3: obj =   1.283754690e+11; rpi =  1.1e+01; rdi =  4.1e-01; gap =  2.0e+01
+  4: obj =   7.028866038e+10; rpi =  5.5e+00; rdi =  1.1e-01; gap =  3.0e+01
+  5: obj =   3.895381750e+10; rpi =  2.7e+00; rdi =  5.8e-02; gap =  4.6e+01
+  6: obj =   2.458881738e+10; rpi =  1.4e+00; rdi =  3.4e-02; gap =  6.3e+01
+  7: obj =   2.244486902e+10; rpi =  1.2e+00; rdi =  2.1e-02; gap =  5.8e+01

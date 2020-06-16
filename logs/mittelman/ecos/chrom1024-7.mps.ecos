@@ -1,0 +1,26 @@
+Solver name: ECOS
+Solve time: 96.778559673
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT
+
+ECOS 2.0.5 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS
+
+It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT
+ 0  +3.000e+00  -7.373e+04  +3e+05  5e-01  6e+01  1e+00  1e+00    ---    ---    1  2  - |  -  - 
+ 1  +4.416e+00  -8.047e+03  +7e+04  5e-02  2e+01  1e+00  4e-01  0.9881  2e-01   2  1  1 |  0  0
+ 2  +4.089e+00  -7.040e+03  +6e+04  4e-02  9e-01  4e-01  3e-01  0.9890  9e-01   1  1  1 |  0  0
+ 3  +3.877e+00  -1.512e+02  +2e+03  8e-04  9e-02  2e-02  9e-03  0.9814  1e-02   4  1  1 |  0  0
+ 4  +3.869e+00  +7.959e-01  +4e+01  2e-05  1e-01  4e-04  2e-04  0.9800  1e-04   1  2  2 |  0  0
+ 5  +3.694e+00  +2.330e+00  +2e+01  7e-06  2e-01  2e-04  8e-05  0.6077  1e-01   1  2  1 |  0  0
+ 6  +3.036e+00  +2.608e+00  +6e+00  2e-06  6e-02  4e-06  3e-05  0.9890  3e-01   0  1  1 |  0  0
+ 7  +3.001e+00  +2.995e+00  +7e-02  2e-08  8e-04  5e-08  4e-07  0.9878  1e-04   1  1  1 |  0  0
+ 8  +3.000e+00  +3.000e+00  +8e-04  3e-10  9e-06  5e-10  4e-09  0.9890  1e-04   2  1  1 |  0  0
+ 9  +3.000e+00  +3.000e+00  +9e-06  3e-12  1e-07  6e-12  4e-11  0.9890  1e-04   2  1  1 |  0  0
+10  +3.000e+00  +3.000e+00  +1e-07  3e-14  1e-09  7e-14  5e-13  0.9890  1e-04   3  1  1 |  0  0
+11  +3.000e+00  +3.000e+00  +1e-09  4e-16  1e-11  7e-16  5e-15  0.9890  1e-04   7  1  1 |  0  0
+
+OPTIMAL (within feastol=1.2e-11, reltol=3.5e-10, abstol=1.1e-09).
+Runtime: 5.902444 seconds.
+

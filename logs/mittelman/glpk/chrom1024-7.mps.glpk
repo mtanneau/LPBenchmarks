@@ -1,0 +1,22 @@
+Original LP has 67583 row(s), 73728 column(s), and 270324 non-zero(s)
+Working LP has 141311 row(s), 196608 column(s), and 466932 non-zero(s)
+Matrix A has 466932 non-zeros
+Matrix S = A*A' has 302524395 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+glp_alloc: size = -1388132984; invalid parameter
+Error detected in file env/alloc.c at line 137
+ERROR: GLPK.GLPKFatalError("GLPK call failed. All GLPK objects you defined so far are now invalidated.")
+Stacktrace:
+ [1] _err_hook(::Ptr{Nothing}) at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/GLPK.jl:223
+ [2] interior(::GLPK.Prob, ::GLPK.InteriorParam) at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/GLPK.jl:229
+ [3] _solve_linear_problem at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/MOI_wrapper.jl:1260 [inlined]
+ [4] optimize!(::GLPK.Optimizer) at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/MOI_wrapper.jl:1362
+ [5] optimize! at /home/mtanneau/.julia/packages/MathOptInterface/RmalA/src/Bridges/bridge_optimizer.jl:239 [inlined]
+ [6] macro expansion at ./util.jl:234 [inlined]
+ [7] run(::MathOptInterface.Bridges.LazyBridgeOptimizer{GLPK.Optimizer}) at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/LPBenchmark.jl:45
+ [8] run_glpk(::String) at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/glpk.jl:15
+ [9] top-level scope at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/glpk.jl:22
+ [10] include(::Module, ::String) at ./Base.jl:377
+ [11] exec_options(::Base.JLOptions) at ./client.jl:288
+ [12] _start() at ./client.jl:484
+Solver name: GLPK

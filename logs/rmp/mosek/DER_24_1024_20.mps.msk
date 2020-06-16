@@ -1,0 +1,65 @@
+Open file 'dat/rmp/DER_24_1024_20.mps'
+Reading started.
+Using 'OBJ' as objective vector
+Read 84675 number of A nonzeros in 0.03 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 0.03
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1048            
+  Cones                  : 0               
+  Scalar variables       : 3656            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1048            
+  Cones                  : 0               
+  Scalar variables       : 3656            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 1048
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 3656              conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.01              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 2.47e+04          after factor           : 2.47e+04        
+Factor     - dense dim.             : 0                 flops                  : 2.57e+06        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   6.1e+06  3.2e+06  1.6e+08  0.00e+00   1.572931051e+05   0.000000000e+00   1.0e+06  0.02  
+1   1.1e+05  5.6e+04  2.8e+06  -9.99e-01  2.003959749e+05   4.596475017e+04   1.8e+04  0.02  
+2   3.5e+04  1.8e+04  8.9e+05  -9.54e-01  9.067752503e+04   -5.212355307e+04  5.7e+03  0.03  
+3   2.1e+04  1.1e+04  5.4e+05  -5.70e-01  2.918652887e+04   -6.978980913e+04  3.4e+03  0.03  
+4   1.1e+04  5.7e+03  2.8e+05  1.47e+00   2.196673756e+04   -7.010282428e+03  1.8e+03  0.03  
+5   8.9e+02  4.6e+02  2.3e+04  1.22e+00   2.612452501e+03   6.951907810e+02   1.5e+02  0.04  
+6   1.8e+01  9.4e+00  4.7e+02  1.05e+00   1.508908300e+03   1.470768909e+03   3.0e+00  0.04  
+7   1.4e+01  7.0e+00  3.5e+02  1.00e+00   1.503880985e+03   1.475467103e+03   2.2e+00  0.04  
+8   8.8e+00  4.5e+00  2.3e+02  1.00e+00   1.496307190e+03   1.477863505e+03   1.4e+00  0.05  
+9   4.9e+00  2.5e+00  1.3e+02  1.00e+00   1.489339455e+03   1.479032743e+03   8.0e-01  0.05  
+10  2.8e+00  1.4e+00  7.2e+01  1.00e+00   1.485258546e+03   1.479387562e+03   4.6e-01  0.05  
+11  1.5e+00  7.6e-01  3.8e+01  1.00e+00   1.482551927e+03   1.479452635e+03   2.4e-01  0.05  
+12  9.3e-01  4.8e-01  2.4e+01  1.00e+00   1.481345667e+03   1.479398117e+03   1.5e-01  0.06  
+13  3.2e-01  1.7e-01  8.3e+00  1.00e+00   1.479986051e+03   1.479307072e+03   5.3e-02  0.06  
+14  9.3e-02  4.8e-02  2.4e+00  1.00e+00   1.479440352e+03   1.479246915e+03   1.5e-02  0.06  
+15  5.2e-03  2.7e-03  1.3e-01  1.00e+00   1.479232395e+03   1.479221465e+03   8.5e-04  0.07  
+16  2.1e-03  1.1e-03  5.5e-02  1.00e+00   1.479224549e+03   1.479220091e+03   3.5e-04  0.07  
+17  1.5e-04  7.7e-05  3.8e-03  1.00e+00   1.479219432e+03   1.479219121e+03   2.4e-05  0.07  
+18  7.4e-05  3.8e-05  1.9e-03  1.00e+00   1.479219260e+03   1.479219105e+03   1.2e-05  0.08  
+19  1.3e-05  6.9e-06  3.5e-04  1.00e+00   1.479219112e+03   1.479219084e+03   2.2e-06  0.08  
+20  1.2e-06  6.2e-07  3.1e-05  1.00e+00   1.479219079e+03   1.479219077e+03   2.0e-07  0.08  
+21  6.2e-09  9.0e-11  3.9e-09  1.00e+00   1.479219076e+03   1.479219076e+03   2.4e-11  0.09  
+Optimizer terminated. Time: 0.10    
+
+Solve time: 0.101513673
+Barrier iterations: 21

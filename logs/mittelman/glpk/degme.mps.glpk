@@ -1,0 +1,23 @@
+Original LP has 185501 row(s), 659415 column(s), and 8127528 non-zero(s)
+Working LP has 185501 row(s), 659415 column(s), and 8127528 non-zero(s)
+Matrix A has 8127528 non-zeros
+Matrix S = A*A' has 9613196 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 56960822 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   1.143292449e+06; rpi =  1.1e+01; rdi =  7.4e+00; gap =  9.4e-01
+  1: obj =  -4.168412949e+05; rpi =  4.4e+00; rdi =  3.1e+00; gap =  3.4e+01
+  2: obj =  -8.559346791e+05; rpi =  1.4e+00; rdi =  7.8e-01; gap =  1.9e+01
+  3: obj =  -1.222045432e+06; rpi =  3.5e-01; rdi =  2.6e-01; gap =  8.9e+00
+  4: obj =  -1.970762303e+06; rpi =  1.1e-01; rdi =  1.2e-01; gap =  3.2e+00
+  5: obj =  -2.625932834e+06; rpi =  6.0e-02; rdi =  4.4e-02; gap =  1.6e+00
+  6: obj =  -3.033644444e+06; rpi =  3.9e-02; rdi =  2.7e-02; gap =  1.1e+00
+  7: obj =  -3.395894661e+06; rpi =  2.6e-02; rdi =  1.4e-02; gap =  7.1e-01
+  8: obj =  -3.659581134e+06; rpi =  1.8e-02; rdi =  8.6e-03; gap =  5.1e-01
+  9: obj =  -3.852793748e+06; rpi =  1.1e-02; rdi =  5.0e-03; gap =  3.9e-01
+ 10: obj =  -4.000036748e+06; rpi =  8.0e-03; rdi =  3.0e-03; gap =  2.9e-01
+ 11: obj =  -4.086264967e+06; rpi =  6.0e-03; rdi =  2.6e-03; gap =  2.6e-01
+ 12: obj =  -4.145877051e+06; rpi =  4.8e-03; rdi =  1.9e-03; gap =  2.2e-01
+ 13: obj =  -4.153069914e+06; rpi =  4.6e-03; rdi =  1.6e-03; gap =  2.1e-01

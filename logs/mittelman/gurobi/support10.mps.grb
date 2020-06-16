@@ -1,0 +1,46 @@
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (linux64)
+Optimize a model with 165684 rows, 14770 columns and 555082 nonzeros
+Model fingerprint: 0xa43fa595
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 5090 rows and 33913 columns
+Presolve time: 1.23s
+Presolved: 9680 rows, 146541 columns, 492605 nonzeros
+Ordering time: 2.39s
+
+Barrier statistics:
+ AA' NZ     : 4.755e+05
+ Factor NZ  : 9.398e+06 (roughly 140 MBytes of memory)
+ Factor Ops : 1.809e+10 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.12821675e+04  1.33324982e+01  2.14e+02 9.79e-01  2.34e-01     5s
+   1  -3.14532632e+03  5.52108453e+00  2.21e+01 2.67e-01  4.30e-02     6s
+   2  -9.92494123e+02  8.79817454e+00  1.12e+00 1.47e-02  6.93e-03     7s
+   3  -2.42551018e+01  8.40342821e+00  2.86e-02 2.44e-15  2.17e-04     8s
+   4  -4.32598786e+00  5.14221198e+00  6.02e-03 1.22e-15  6.26e-05     9s
+   5  -7.85050788e-01  3.94077039e+00  2.94e-03 1.11e-15  3.12e-05    10s
+   6   1.66481025e+00  3.57564889e+00  1.07e-03 9.99e-16  1.26e-05    11s
+   7   2.90039013e+00  3.43362500e+00  2.69e-04 1.33e-15  3.51e-06    12s
+   8   3.28410792e+00  3.39838640e+00  4.79e-05 8.88e-16  7.51e-07    13s
+   9   3.36532153e+00  3.38619540e+00  6.65e-06 1.22e-15  1.37e-07    15s
+  10   3.37957023e+00  3.38440450e+00  1.54e-06 1.11e-15  3.17e-08    16s
+  11   3.38241252e+00  3.38399273e+00  5.13e-07 1.05e-15  1.04e-08    17s
+  12   3.38389871e+00  3.38392714e+00  4.38e-09 1.22e-15  1.86e-10    18s
+  13   3.38392363e+00  3.38392368e+00  2.22e-10 9.99e-16  3.78e-13    18s
+  14   3.38392367e+00  3.38392367e+00  9.68e-11 9.99e-16  3.78e-16    19s
+
+Barrier solved model in 14 iterations and 19.28 seconds
+Optimal objective 3.38392367e+00
+
+Solver name: Gurobi
+Solve time: 19.330319427
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

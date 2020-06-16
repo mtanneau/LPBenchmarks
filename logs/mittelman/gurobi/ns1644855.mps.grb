@@ -1,0 +1,48 @@
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (linux64)
+Optimize a model with 40698 rows, 40200 columns and 2120696 nonzeros
+Model fingerprint: 0xabcee2a7
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 10100 rows and 10001 columns (presolve time = 5s) ...
+Presolve removed 10101 rows and 10001 columns
+Presolve time: 5.65s
+Presolved: 30597 rows, 30199 columns, 2100495 nonzeros
+Elapsed ordering time = 5s
+Elapsed ordering time = 6s
+Ordering time: 7.79s
+
+Barrier statistics:
+ AA' NZ     : 4.607e+06
+ Factor NZ  : 1.068e+08 (roughly 900 MBytes of memory)
+ Factor Ops : 6.895e+11 (roughly 17 seconds per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -4.34943593e+05 -2.08557895e+04  5.60e+04 3.13e-02  3.94e+00    46s
+   1  -5.75883684e+04 -9.36247550e+03  7.41e+03 3.47e-02  4.33e-01    76s
+   2  -3.50426164e+03 -3.70069075e+03  3.23e+02 1.42e-14  4.51e-02   108s
+   3  -1.64774344e+03 -1.99017432e+03  2.45e+01 1.42e-14  7.18e-03   140s
+   4  -1.52262695e+03 -1.61167679e+03  3.65e+00 1.42e-14  1.49e-03   172s
+   5  -1.51880847e+03 -1.54590979e+03  8.11e-01 1.60e-14  4.20e-04   201s
+   6  -1.52079034e+03 -1.54018553e+03  3.66e-01 1.24e-14  2.79e-04   228s
+   7  -1.52301685e+03 -1.52651314e+03  4.04e-02 1.42e-14  4.76e-05   262s
+   8  -1.52356732e+03 -1.52477619e+03  1.50e-02 1.60e-14  1.66e-05   293s
+   9  -1.52421963e+03 -1.52477627e+03  6.53e-04 1.24e-14  6.99e-06   325s
+  10  -1.52427529e+03 -1.52435927e+03  1.66e-04 1.78e-14  1.06e-06   352s
+  11  -1.52431133e+03 -1.52433369e+03  5.77e-05 1.24e-14  2.84e-07   381s
+  12  -1.52433331e+03 -1.52433333e+03  3.64e-06 1.60e-14  2.90e-10   410s
+  13  -1.52433333e+03 -1.52433333e+03  6.88e-09 2.13e-14  2.90e-13   437s
+
+Barrier solved model in 13 iterations and 436.85 seconds
+Optimal objective -1.52433333e+03
+
+Solver name: Gurobi
+Solve time: 437.031047339
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

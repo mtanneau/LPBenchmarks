@@ -1,0 +1,103 @@
+Original LP has 104259 row(s), 61728 column(s), and 523257 non-zero(s)
+Working LP has 124515 row(s), 175706 column(s), and 657491 non-zero(s)
+Matrix A has 657491 non-zeros
+Matrix S = A*A' has 4449388 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 7528101 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   1.342350873e+10; rpi =  2.6e+01; rdi =  3.4e+00; gap =  1.0e+00
+  1: obj =   6.579163987e+09; rpi =  8.5e+00; rdi =  2.3e+00; gap =  1.3e+00
+  2: obj =   4.054599053e+09; rpi =  3.9e+00; rdi =  1.3e+00; gap =  1.5e+00
+  3: obj =   2.319985580e+09; rpi =  1.8e+00; rdi =  4.0e-01; gap =  2.0e+00
+  4: obj =   1.159605643e+09; rpi =  7.3e-01; rdi =  1.3e-01; gap =  2.6e+00
+  5: obj =   5.805233146e+08; rpi =  3.1e-01; rdi =  3.5e-02; gap =  3.0e+00
+  6: obj =   3.096712360e+08; rpi =  1.4e-01; rdi =  1.6e-02; gap =  3.8e+00
+  7: obj =   1.631501237e+08; rpi =  6.1e-02; rdi =  5.3e-03; gap =  4.7e+00
+  8: obj =   8.083024752e+07; rpi =  2.5e-02; rdi =  2.4e-03; gap =  5.9e+00
+  9: obj =   4.066402117e+07; rpi =  9.3e-03; rdi =  1.1e-03; gap =  7.1e+00
+ 10: obj =   2.870685754e+07; rpi =  4.7e-03; rdi =  2.6e-04; gap =  5.2e+00
+ 11: obj =   1.737171296e+07; rpi =  1.8e-03; rdi =  6.5e-05; gap =  3.8e+00
+ 12: obj =   1.024352436e+07; rpi =  7.0e-04; rdi =  2.2e-05; gap =  2.5e+00
+ 13: obj =   6.728728083e+06; rpi =  2.6e-04; rdi =  7.0e-06; gap =  1.7e+00
+ 14: obj =   5.830389618e+06; rpi =  1.8e-04; rdi =  2.5e-06; gap =  1.3e+00
+ 15: obj =   4.605931698e+06; rpi =  1.0e-04; rdi =  1.2e-06; gap =  9.5e-01
+ 16: obj =   3.858899462e+06; rpi =  5.8e-05; rdi =  4.5e-07; gap =  6.9e-01
+ 17: obj =   3.570251384e+06; rpi =  4.2e-05; rdi =  3.1e-07; gap =  5.9e-01
+ 18: obj =   3.386299107e+06; rpi =  3.1e-05; rdi =  2.3e-07; gap =  5.4e-01
+ 19: obj =   3.110873680e+06; rpi =  2.0e-05; rdi =  1.6e-07; gap =  4.3e-01
+ 20: obj =   2.945187239e+06; rpi =  1.1e-05; rdi =  1.0e-07; gap =  3.5e-01
+ 21: obj =   2.823576286e+06; rpi =  7.7e-06; rdi =  5.2e-08; gap =  2.4e-01
+ 22: obj =   2.726646542e+06; rpi =  4.8e-06; rdi =  2.6e-08; gap =  1.8e-01
+ 23: obj =   2.622358090e+06; rpi =  2.0e-06; rdi =  1.6e-08; gap =  1.3e-01
+ 24: obj =   2.571494484e+06; rpi =  1.1e-06; rdi =  9.3e-09; gap =  9.2e-02
+ 25: obj =   2.530213831e+06; rpi =  5.4e-07; rdi =  5.6e-09; gap =  6.4e-02
+ 26: obj =   2.510620209e+06; rpi =  2.6e-07; rdi =  3.7e-09; gap =  5.0e-02
+ 27: obj =   2.493581692e+06; rpi =  1.3e-07; rdi =  2.5e-09; gap =  3.7e-02
+ 28: obj =   2.489368321e+06; rpi =  1.0e-07; rdi =  1.6e-09; gap =  3.0e-02
+ 29: obj =   2.480870659e+06; rpi =  6.9e-08; rdi =  1.0e-09; gap =  2.2e-02
+ 30: obj =   2.477652599e+06; rpi =  5.2e-08; rdi =  6.5e-10; gap =  1.8e-02
+ 31: obj =   2.474309079e+06; rpi =  4.0e-08; rdi =  3.5e-10; gap =  1.4e-02
+ 32: obj =   2.470549569e+06; rpi =  2.7e-08; rdi =  2.3e-10; gap =  1.2e-02
+ 33: obj =   2.469754171e+06; rpi =  2.5e-08; rdi =  2.0e-10; gap =  1.1e-02
+ 34: obj =   2.468644208e+06; rpi =  2.2e-08; rdi =  1.1e-10; gap =  9.4e-03
+ 35: obj =   2.466949401e+06; rpi =  1.7e-08; rdi =  9.2e-11; gap =  8.5e-03
+ 36: obj =   2.466493918e+06; rpi =  1.6e-08; rdi =  8.8e-11; gap =  8.2e-03
+ 37: obj =   2.466022294e+06; rpi =  1.5e-08; rdi =  8.4e-11; gap =  8.0e-03
+ 38: obj =   2.465768041e+06; rpi =  1.4e-08; rdi =  6.4e-11; gap =  7.5e-03
+ 39: obj =   2.464848873e+06; rpi =  1.2e-08; rdi =  5.6e-11; gap =  7.0e-03
+ 40: obj =   2.464684317e+06; rpi =  1.1e-08; rdi =  5.4e-11; gap =  6.9e-03
+ 41: obj =   2.464263967e+06; rpi =  1.0e-08; rdi =  5.0e-11; gap =  6.7e-03
+ 42: obj =   2.464145486e+06; rpi =  9.9e-09; rdi =  4.9e-11; gap =  6.6e-03
+ 43: obj =   2.463605463e+06; rpi =  8.8e-09; rdi =  4.5e-11; gap =  6.3e-03
+ 44: obj =   2.463042459e+06; rpi =  7.7e-09; rdi =  4.1e-11; gap =  6.0e-03
+ 45: obj =   2.462932054e+06; rpi =  7.4e-09; rdi =  3.9e-11; gap =  5.9e-03
+ 46: obj =   2.462614002e+06; rpi =  6.7e-09; rdi =  3.7e-11; gap =  5.7e-03
+ 47: obj =   2.462541411e+06; rpi =  6.5e-09; rdi =  3.5e-11; gap =  5.6e-03
+ 48: obj =   2.462454563e+06; rpi =  6.2e-09; rdi =  3.3e-11; gap =  5.5e-03
+ 49: obj =   2.462259706e+06; rpi =  5.8e-09; rdi =  3.1e-11; gap =  5.4e-03
+ 50: obj =   2.462115534e+06; rpi =  5.5e-09; rdi =  3.1e-11; gap =  5.3e-03
+ 51: obj =   2.461813170e+06; rpi =  4.9e-09; rdi =  2.6e-11; gap =  5.1e-03
+ 52: obj =   2.461676561e+06; rpi =  4.5e-09; rdi =  2.5e-11; gap =  5.0e-03
+ 53: obj =   2.461264291e+06; rpi =  3.9e-09; rdi =  1.8e-11; gap =  4.5e-03
+ 54: obj =   2.461086399e+06; rpi =  3.5e-09; rdi =  1.7e-11; gap =  4.4e-03
+ 55: obj =   2.460872951e+06; rpi =  3.2e-09; rdi =  1.6e-11; gap =  4.2e-03
+ 56: obj =   2.460845071e+06; rpi =  3.1e-09; rdi =  1.5e-11; gap =  4.2e-03
+ 57: obj =   2.460790815e+06; rpi =  3.0e-09; rdi =  1.5e-11; gap =  4.2e-03
+ 58: obj =   2.460615447e+06; rpi =  2.7e-09; rdi =  1.4e-11; gap =  4.1e-03
+ 59: obj =   2.460391874e+06; rpi =  2.4e-09; rdi =  1.2e-11; gap =  3.9e-03
+ 60: obj =   2.460241887e+06; rpi =  2.2e-09; rdi =  1.0e-11; gap =  3.8e-03
+ 61: obj =   2.460067979e+06; rpi =  2.0e-09; rdi =  9.5e-12; gap =  3.6e-03
+ 62: obj =   2.459978404e+06; rpi =  1.9e-09; rdi =  8.1e-12; gap =  3.5e-03
+ 63: obj =   2.459759192e+06; rpi =  1.6e-09; rdi =  7.7e-12; gap =  3.4e-03
+ 64: obj =   2.459737917e+06; rpi =  1.6e-09; rdi =  7.6e-12; gap =  3.4e-03
+ 65: obj =   2.459666891e+06; rpi =  1.5e-09; rdi =  6.8e-12; gap =  3.3e-03
+ 66: obj =   2.459608600e+06; rpi =  1.4e-09; rdi =  6.5e-12; gap =  3.3e-03
+ 67: obj =   2.459316368e+06; rpi =  1.2e-09; rdi =  5.7e-12; gap =  3.0e-03
+ 68: obj =   2.459237992e+06; rpi =  1.2e-09; rdi =  4.5e-12; gap =  2.9e-03
+ 69: obj =   2.459176371e+06; rpi =  1.1e-09; rdi =  4.9e-12; gap =  2.8e-03
+ 70: obj =   2.458933526e+06; rpi =  9.5e-10; rdi =  5.8e-12; gap =  2.7e-03
+ 71: obj =   2.458921795e+06; rpi =  9.4e-10; rdi =  4.4e-12; gap =  2.6e-03
+ 72: obj =   2.458860405e+06; rpi =  8.8e-10; rdi =  5.0e-12; gap =  2.6e-03
+ 73: obj =   2.458863743e+06; rpi =  8.7e-10; rdi =  5.9e-12; gap =  2.6e-03
+ 74: obj =   2.458855608e+06; rpi =  8.5e-10; rdi =  4.8e-12; gap =  2.6e-03
+ 75: obj =   2.458831947e+06; rpi =  8.2e-10; rdi =  5.4e-12; gap =  2.5e-03
+ 76: obj =   2.458797443e+06; rpi =  7.6e-10; rdi =  6.7e-12; gap =  2.5e-03
+ 77: obj =   2.458794611e+06; rpi =  7.4e-10; rdi =  5.5e-12; gap =  2.5e-03
+ 78: obj =   2.458774563e+06; rpi =  7.2e-10; rdi =  7.4e-12; gap =  2.4e-03
+ 79: obj =   2.458702986e+06; rpi =  6.7e-10; rdi =  5.7e-12; gap =  2.3e-03
+ 80: obj =   2.458605914e+06; rpi =  6.0e-10; rdi =  5.5e-12; gap =  2.3e-03
+ 81: obj =   2.458571743e+06; rpi =  5.7e-10; rdi =  5.9e-12; gap =  2.2e-03
+ 82: obj =   2.458537821e+06; rpi =  5.4e-10; rdi =  7.2e-12; gap =  2.2e-03
+ 83: obj =   2.458508848e+06; rpi =  5.1e-10; rdi =  6.1e-12; gap =  2.2e-03
+ 84: obj =   2.458498858e+06; rpi =  4.9e-10; rdi =  7.1e-12; gap =  2.2e-03
+ 85: obj =   2.458492012e+06; rpi =  4.8e-10; rdi =  6.9e-12; gap =  2.1e-03
+NO CONVERGENCE; SEARCH TERMINATED
+Best point   2.458492012e+06 was reached on iteration 85
+Solver name: GLPK
+Solve time: 371.00620193
+Termination status: SLOW_PROGRESS
+Result count: 1
+Primal status: INFEASIBLE_POINT
+Dual status: NO_SOLUTION

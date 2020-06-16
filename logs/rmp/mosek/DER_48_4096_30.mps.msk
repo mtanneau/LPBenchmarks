@@ -1,0 +1,67 @@
+Open file 'dat/rmp/DER_48_4096_30.mps'
+Reading started.
+Using 'OBJ' as objective vector
+Read 866310 number of A nonzeros in 0.28 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 0.29
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 4144            
+  Cones                  : 0               
+  Scalar variables       : 19600           
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 4144            
+  Cones                  : 0               
+  Scalar variables       : 19600           
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 4144
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 19600             conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.18              dense det. time        : 0.00            
+Factor     - ML order time          : 0.01              GP order time          : 0.00            
+Factor     - nonzeros before factor : 1.92e+05          after factor           : 1.92e+05        
+Factor     - dense dim.             : 0                 flops                  : 4.83e+07        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   2.5e+07  3.2e+06  3.7e+08  0.00e+00   3.713034720e+05   0.000000000e+00   1.0e+06  0.31  
+1   5.5e+05  7.1e+04  8.3e+06  -1.00e+00  1.045048693e+06   6.775127280e+05   2.2e+04  0.36  
+2   1.1e+05  1.4e+04  1.7e+06  -9.76e-01  4.089042827e+05   6.531874510e+04   4.5e+03  0.39  
+3   6.3e+04  8.1e+03  9.5e+05  -6.50e-01  1.063622897e+05   -1.135341085e+05  2.6e+03  0.43  
+4   3.0e+04  3.9e+03  4.6e+05  2.24e+00   5.333876841e+04   5.314293182e+03   1.2e+03  0.46  
+5   3.6e+03  4.6e+02  5.4e+04  1.49e+00   1.643687999e+04   1.218448172e+04   1.5e+02  0.49  
+6   2.9e+02  3.8e+01  4.4e+03  1.07e+00   1.256121408e+04   1.222574266e+04   1.2e+01  0.53  
+7   1.9e+02  2.5e+01  2.9e+03  1.01e+00   1.239486003e+04   1.217483352e+04   7.8e+00  0.56  
+8   7.3e+01  9.4e+00  1.1e+03  1.00e+00   1.218906245e+04   1.210551562e+04   3.0e+00  0.60  
+9   3.4e+01  4.4e+00  5.2e+02  1.00e+00   1.209402626e+04   1.205471623e+04   1.4e+00  0.63  
+10  2.3e+01  3.0e+00  3.5e+02  1.00e+00   1.206599848e+04   1.203959438e+04   9.4e-01  0.66  
+11  1.1e+01  1.5e+00  1.7e+02  1.00e+00   1.203598171e+04   1.202290015e+04   4.7e-01  0.70  
+12  4.7e+00  6.0e-01  7.1e+01  1.00e+00   1.201751243e+04   1.201216692e+04   1.9e-01  0.74  
+13  2.5e+00  3.2e-01  3.8e+01  1.00e+00   1.201150021e+04   1.200861523e+04   1.0e-01  0.78  
+14  1.2e+00  1.5e-01  1.8e+01  1.00e+00   1.200773471e+04   1.200638400e+04   4.8e-02  0.85  
+15  8.3e-01  1.1e-01  1.3e+01  1.00e+00   1.200674108e+04   1.200579300e+04   3.4e-02  0.89  
+16  5.8e-01  7.4e-02  8.7e+00  1.00e+00   1.200600992e+04   1.200534782e+04   2.4e-02  0.93  
+17  3.5e-01  4.4e-02  5.2e+00  1.00e+00   1.200532485e+04   1.200492910e+04   1.4e-02  0.97  
+18  1.3e-01  1.7e-02  2.0e+00  1.00e+00   1.200467443e+04   1.200452634e+04   5.3e-03  1.01  
+19  2.1e-02  2.7e-03  3.2e-01  1.00e+00   1.200434247e+04   1.200431831e+04   8.6e-04  1.06  
+20  1.8e-03  2.3e-04  2.7e-02  1.00e+00   1.200427988e+04   1.200427782e+04   7.3e-05  1.11  
+21  2.3e-04  3.0e-05  3.5e-03  1.00e+00   1.200427412e+04   1.200427385e+04   9.5e-06  1.14  
+22  1.4e-05  1.8e-06  2.1e-04  1.00e+00   1.200427331e+04   1.200427329e+04   5.7e-07  1.18  
+23  1.4e-07  6.7e-10  4.6e-08  1.00e+00   1.200427326e+04   1.200427326e+04   2.1e-10  1.21  
+Optimizer terminated. Time: 1.36    
+
+Solve time: 1.368537444
+Barrier iterations: 23

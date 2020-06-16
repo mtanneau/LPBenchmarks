@@ -1,0 +1,116 @@
+Solver name: ECOS
+Solve time: 1703.309788234
+Termination status: ALMOST_OPTIMAL
+Result count: 1
+Primal status: NEARLY_FEASIBLE_POINT
+Dual status: NEARLY_FEASIBLE_POINT
+
+ECOS 2.0.5 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS
+
+It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT
+ 0  +1.149e+00  -6.365e+04  +2e+05  5e-01  3e-01  1e+00  2e+00    ---    ---    1  1  - |  -  - 
+ 1  +1.674e+00  -5.318e+03  +3e+04  4e-02  3e-02  9e-01  3e-01  0.9890  1e-01   1  1  1 |  0  0
+ 2  +1.783e+00  -2.835e+02  +2e+03  2e-03  2e-03  5e-02  2e-02  0.9458  4e-03   1  1  1 |  0  0
+ 3  +1.703e+00  -9.984e+01  +7e+02  8e-04  5e-04  2e-02  5e-03  0.7454  1e-01   1  1  1 |  0  0
+ 4  +1.819e+00  -6.914e+01  +4e+02  6e-04  3e-04  1e-02  3e-03  0.4148  2e-01   1  2  2 |  0  0
+ 5  +1.958e+00  -6.322e+01  +4e+02  6e-04  3e-04  9e-03  3e-03  0.2148  4e-01   2  1  1 |  0  0
+ 6  +2.332e+00  -6.080e+01  +4e+02  6e-04  2e-04  8e-03  3e-03  0.2222  7e-01   1  2  1 |  0  0
+ 7  +3.222e+00  -5.593e+01  +3e+02  5e-04  2e-04  6e-03  3e-03  0.2688  6e-01   1  1  1 |  0  0
+ 8  +7.767e+00  -3.643e+01  +2e+02  4e-04  2e-04  8e-04  2e-03  0.9890  7e-01   2  1  1 |  0  0
+ 9  +7.421e+00  -1.869e+01  +1e+02  3e-04  8e-05  5e-04  1e-03  0.4847  1e-01   2  1  1 |  0  0
+10  +7.394e+00  -1.048e+01  +9e+01  2e-04  6e-05  3e-04  7e-04  0.5700  4e-01   1  1  1 |  0  0
+11  +7.368e+00  -1.048e+01  +9e+01  2e-04  6e-05  3e-04  7e-04  0.0507  9e-01   2  1  1 |  0  0
+12  +7.733e+00  -3.718e+00  +5e+01  1e-04  3e-05  2e-04  4e-04  0.4974  2e-01   1  1  1 |  0  0
+13  +7.757e+00  -2.472e+00  +5e+01  1e-04  3e-05  2e-04  4e-04  0.3550  7e-01   2  1  1 |  0  0
+14  +8.078e+00  +1.416e+00  +3e+01  7e-05  2e-05  1e-04  2e-04  0.5812  4e-01   2  1  1 |  0  0
+15  +8.399e+00  +4.860e+00  +2e+01  4e-05  1e-05  6e-05  1e-04  0.6761  3e-01   2  1  1 |  0  0
+16  +8.618e+00  +6.973e+00  +7e+00  2e-05  4e-06  3e-05  6e-05  0.6884  2e-01   2  1  1 |  0  0
+17  +8.616e+00  +6.994e+00  +7e+00  2e-05  4e-06  3e-05  6e-05  0.0824  8e-01   1  1  1 |  0  0
+18  +8.761e+00  +8.239e+00  +2e+00  5e-06  1e-06  1e-05  2e-05  0.8018  2e-01   1  1  1 |  0  0
+19  +8.797e+00  +8.519e+00  +1e+00  3e-06  8e-07  5e-06  1e-05  0.4973  6e-02   2  1  1 |  0  0
+20  +8.797e+00  +8.520e+00  +1e+00  3e-06  8e-07  5e-06  1e-05  0.0219  9e-01   2  1  1 |  0  0
+21  +8.809e+00  +8.617e+00  +9e-01  2e-06  5e-07  4e-06  7e-06  0.5215  4e-01   1  1  1 |  0  0
+22  +8.832e+00  +8.784e+00  +2e-01  5e-07  1e-07  9e-07  2e-06  0.8521  1e-01   1  1  1 |  0  0
+23  +8.839e+00  +8.836e+00  +1e-02  3e-08  9e-09  6e-08  1e-07  0.9474  2e-02   2  1  1 |  0  0
+24  +8.840e+00  +8.840e+00  +2e-04  4e-10  1e-10  7e-10  1e-09  0.9890  1e-04   4  1  1 |  0  0
+25   -nan   +nan  -nan  -nan  -nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+26   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+27   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+28   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+29   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+30   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+31   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+32   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+33   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+34   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+35   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+36   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+37   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+38   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+39   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+40   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+41   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+42   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+43   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+44   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+45   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+46   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+47   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+48   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+49   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+50   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+51   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+52   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+53   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+54   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+55   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+56   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+57   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+58   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+59   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+60   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+61   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+62   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+63   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+64   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+65   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+66   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+67   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+68   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+69   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+70   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+71   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+72   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+73   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+74   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+75   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+76   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+77   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+78   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+79   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+80   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+81   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+82   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+83   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+84   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+85   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+86   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+87   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+88   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+89   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+90   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+91   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+92   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+93   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+94   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+95   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+96   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+97   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+98   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+99   +nan   -nan  -nan  nan  nan  -nan  -nan  0.9890  1e-04   0  0  0 |  0  0
+100   +nan   -nan  -nan  nan  nan  nan  nan  0.9890  1e-04   0  0  0 |  0  0
+Maximum number of iterations reached, recovering best iterate (24) and stopping.
+
+Close to OPTIMAL (within feastol=3.7e-10, reltol=1.8e-05, abstol=1.6e-04).
+Runtime: 1663.243268 seconds.
+

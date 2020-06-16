@@ -1,0 +1,18 @@
+Original LP has 50622 row(s), 43749 column(s), and 1406739 non-zero(s)
+Working LP has 51496 row(s), 90119 column(s), and 2779197 non-zero(s)
+Matrix A has 2779197 non-zeros
+Matrix S = A*A' has 22072139 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 23395602 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   3.529337759e+18; rpi =  1.9e+11; rdi =  1.9e-01; gap =  1.0e+00
+NUMERIC INSTABILITY; SEARCH TERMINATED
+Best point   3.529337759e+18 was reached on iteration 0
+Solver name: GLPK
+Solve time: 416.053492403
+Termination status: NUMERICAL_ERROR
+Result count: 1
+Primal status: INFEASIBLE_POINT
+Dual status: NO_SOLUTION

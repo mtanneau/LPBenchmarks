@@ -1,0 +1,63 @@
+Selected objective sense:  MINIMIZE
+Selected objective  name:  OBJ
+Selected RHS        name:  RHS1
+Selected bound      name:  BND1
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 1
+CPXPARAM_SolutionType                            2
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 0 times.
+DUAL formed by presolve
+Reduced presolve eliminated 143 rows and 191 columns.
+Reduced LP has 7049 rows, 1953 columns, and 159049 nonzeros.
+Presolve time = 0.03 sec. (35.78 ticks)
+Parallel mode: none, using 1 thread for barrier
+
+***NOTE: Found 24 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 11170
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.87 ticks)
+Summary statistics for Cholesky factor:
+  Rows in Factor            = 7073
+  Integer space required    = 50400
+  Total non-zeros in factor = 178955
+  Total FP ops to factor    = 4611189
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  -8.4457505e+05   6.2840299e+07  1.89e+04  0.00e+00  7.06e+06  1.00e+00
+   1  -8.2102034e+05   4.1059011e+07  3.16e+03  2.29e-12  4.65e+06  1.14e-03
+   2  -1.9912649e+05   5.2150212e+06  1.20e+02  1.08e-12  6.07e+05  7.90e-03
+   3  -1.2789905e+05   1.7715543e+06  5.10e+01  1.64e-12  2.13e+05  1.20e-02
+   4  -8.3397635e+04   3.1640338e+05  1.65e+01  1.07e-12  4.56e+04  3.25e-02
+   5  -6.7382351e+04   1.3532857e+05  1.19e+01  2.79e-12  2.18e+04  6.83e-02
+   6  -4.6201987e+04   1.0763659e+04  7.60e+00  1.06e-12  3.14e+03  4.25e-01
+   7  -1.7274795e+04   3.3866818e+03  2.93e+00  8.72e-13  7.90e+02  4.68e-01
+   8   1.5220852e+03   3.0087193e+03  2.12e-01  1.26e-12  4.35e+01  8.38e+00
+   9   2.5941299e+03   2.9682310e+03  5.45e-02  3.14e-12  2.70e+00  1.09e+02
+  10   2.7989092e+03   2.9406040e+03  2.08e-02  2.09e-12  9.68e-01  9.39e+01
+  11   2.8422045e+03   2.9362082e+03  1.40e-02  2.72e-12  5.08e-01  1.57e+02
+  12   2.8948449e+03   2.9231712e+03  4.23e-03  3.14e-12  1.51e-01  4.12e+02
+  13   2.9046540e+03   2.9192322e+03  1.92e-03  2.09e-13  9.36e-02  6.26e+02
+  14   2.9083947e+03   2.9167483e+03  9.65e-04  1.05e-12  6.06e-02  9.20e+02
+  15   2.9103479e+03   2.9150286e+03  4.69e-04  1.47e-12  3.77e-02  1.46e+03
+  16   2.9112926e+03   2.9139912e+03  2.23e-04  1.68e-12  2.41e-02  2.30e+03
+  17   2.9118317e+03   2.9134229e+03  8.77e-05  3.56e-12  1.66e-02  3.36e+03
+  18   2.9119743e+03   2.9128630e+03  4.65e-05  1.68e-12  9.35e-03  6.15e+03
+  19   2.9120865e+03   2.9125125e+03  2.09e-05  2.30e-12  4.57e-03  1.28e+04
+  20   2.9121301e+03   2.9123305e+03  1.08e-05  1.05e-12  2.09e-03  2.90e+04
+  21   2.9121642e+03   2.9122391e+03  3.41e-06  1.05e-12  8.22e-04  7.67e+04
+  22   2.9121723e+03   2.9122067e+03  7.58e-06  2.93e-12  3.71e-04  1.80e+05
+  23   2.9121748e+03   2.9121859e+03  3.13e-05  3.77e-12  6.73e-05  1.09e+06
+  24   2.9121792e+03   2.9121825e+03  2.53e-04  1.03e-12  1.55e-05  4.44e+06
+  25   2.9121810e+03   2.9121821e+03  6.10e-04  1.86e-12  8.14e-06  7.19e+06
+  26   2.9121812e+03   2.9121819e+03  6.80e-04  3.30e-12  5.40e-06  1.06e+07
+  27   2.9121813e+03   2.9121817e+03  8.30e-04  2.27e-12  2.71e-06  2.09e+07
+  28   2.9121814e+03   2.9121816e+03  1.01e-03  2.69e-12  1.21e-06  4.66e+07
+  29   2.9121814e+03   2.9121815e+03  1.09e-03  2.89e-12  8.92e-07  6.18e+07
+  30   2.9121814e+03   2.9121815e+03  1.23e-03  1.45e-12  2.08e-07  2.53e+08
+Barrier time = 0.31 sec. (417.99 ticks)
+
+Total time on 1 threads = 0.31 sec. (417.99 ticks)
+Solve time: 0.306186978
+Barrier iterations: 30

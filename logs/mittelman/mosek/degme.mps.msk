@@ -1,0 +1,78 @@
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 185501          
+  Cones                  : 0               
+  Scalar variables       : 659415          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 175.58          
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 178.72  
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 185501          
+  Cones                  : 0               
+  Scalar variables       : 659415          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 185501
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 659415            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 19.53             dense det. time        : 6.06            
+Factor     - ML order time          : 2.68              GP order time          : 0.00            
+Factor     - nonzeros before factor : 9.51e+06          after factor           : 1.45e+07        
+Factor     - dense dim.             : 890               flops                  : 2.36e+09        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.3e+09  3.8e+03  1.9e+07  0.00e+00   1.914015927e+04   0.000000000e+00   1.0e+06  202.29
+1   3.3e+08  9.7e+02  4.9e+06  -8.47e-01  -3.306711990e+05  -3.451256988e+05  2.5e+05  204.88
+2   1.6e+08  4.6e+02  2.3e+06  -3.09e-01  -1.187987553e+06  -1.198544099e+06  1.2e+05  206.44
+3   8.8e+07  2.6e+02  1.3e+06  -1.03e-02  -2.062395203e+06  -2.070112709e+06  6.7e+04  207.97
+4   4.9e+07  1.4e+02  7.1e+05  2.17e-01   -2.882160164e+06  -2.887422510e+06  3.7e+04  209.66
+5   3.5e+07  1.0e+02  5.0e+05  4.41e-01   -3.278510175e+06  -3.282590554e+06  2.6e+04  210.94
+6   2.3e+07  6.7e+01  3.4e+05  5.57e-01   -3.657207887e+06  -3.660170436e+06  1.8e+04  212.30
+7   1.8e+07  5.2e+01  2.6e+05  6.71e-01   -3.861061656e+06  -3.863426663e+06  1.3e+04  213.66
+8   1.3e+07  3.8e+01  1.9e+05  7.33e-01   -4.050430196e+06  -4.052243226e+06  1.0e+04  215.44
+9   1.2e+07  3.6e+01  1.8e+05  7.91e-01   -4.088352789e+06  -4.090056033e+06  9.3e+03  216.79
+10  1.1e+07  3.2e+01  1.6e+05  8.03e-01   -4.135798362e+06  -4.137363767e+06  8.5e+03  218.00
+11  8.3e+06  2.4e+01  1.2e+05  8.18e-01   -4.262034156e+06  -4.263234452e+06  6.3e+03  219.36
+12  7.7e+06  2.2e+01  1.1e+05  8.54e-01   -4.292353954e+06  -4.293467892e+06  5.8e+03  220.71
+13  7.2e+06  2.1e+01  1.0e+05  8.63e-01   -4.314672637e+06  -4.315723073e+06  5.5e+03  222.06
+14  3.6e+06  1.0e+01  5.2e+04  8.70e-01   -4.495789790e+06  -4.496328829e+06  2.7e+03  224.44
+15  2.2e+06  6.3e+00  3.1e+04  9.24e-01   -4.569710957e+06  -4.570044065e+06  1.6e+03  225.81
+16  1.0e+06  3.0e+00  1.5e+04  9.51e-01   -4.631570341e+06  -4.631732398e+06  7.9e+02  227.60
+17  9.1e+04  2.7e-01  1.3e+03  9.76e-01   -4.685429053e+06  -4.685443485e+06  7.0e+01  230.07
+18  5.5e+04  1.6e-01  8.0e+02  9.97e-01   -4.687855336e+06  -4.687864017e+06  4.2e+01  231.60
+19  1.5e+04  4.5e-02  2.2e+02  9.98e-01   -4.690494824e+06  -4.690497255e+06  1.2e+01  234.00
+20  9.1e+03  2.7e-02  1.3e+02  9.99e-01   -4.690909426e+06  -4.690910872e+06  7.0e+00  235.89
+21  5.5e+03  1.6e-02  8.1e+01  1.00e+00   -4.691148706e+06  -4.691149583e+06  4.2e+00  237.38
+22  2.1e+03  6.2e-03  3.1e+01  1.00e+00   -4.691377353e+06  -4.691377688e+06  1.6e+00  239.05
+23  7.0e+02  2.1e-03  1.0e+01  1.00e+00   -4.691471962e+06  -4.691472073e+06  5.4e-01  240.79
+24  4.0e+01  1.2e-04  5.9e-01  1.00e+00   -4.691516569e+06  -4.691516576e+06  3.0e-02  243.28
+25  1.9e+00  5.6e-06  3.1e-02  1.00e+00   -4.691519129e+06  -4.691519130e+06  1.5e-03  245.84
+26  1.2e-01  3.4e-07  1.8e-03  1.00e+00   -4.691519253e+06  -4.691519253e+06  8.8e-05  250.03
+Optimizer terminated. Time: 253.02  
+
+Solve time: 253.046566976
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

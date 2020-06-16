@@ -1,0 +1,68 @@
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 22002           
+  Cones                  : 0               
+  Scalar variables       : 47235           
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 19.79           
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 19.99   
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 22002           
+  Cones                  : 0               
+  Scalar variables       : 47235           
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 22002
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 47235             conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 3.67              dense det. time        : 1.04            
+Factor     - ML order time          : 0.83              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3.99e+06          after factor           : 6.34e+06        
+Factor     - dense dim.             : 210               flops                  : 2.10e+09        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   6.3e+07  2.3e+03  7.8e+05  0.00e+00   1.170403561e+03   0.000000000e+00   4.5e+05  24.04 
+1   1.1e+07  4.2e+02  1.4e+05  -8.81e-01  -4.213323849e+03  -5.097445947e+03  8.1e+04  24.56 
+2   5.4e+06  2.0e+02  6.8e+04  -3.68e-01  -6.315706498e+03  -6.958882725e+03  3.9e+04  24.91 
+3   2.6e+06  9.5e+01  3.2e+04  5.05e-02   -7.982281169e+03  -8.381024044e+03  1.8e+04  25.26 
+4   9.0e+05  3.3e+01  1.1e+04  4.84e-01   -1.070202039e+04  -1.086089971e+04  6.4e+03  25.64 
+5   3.4e+05  1.2e+01  4.2e+03  8.82e-01   -1.302550707e+04  -1.308628487e+04  2.4e+03  26.05 
+6   2.8e+05  1.0e+01  3.5e+03  9.80e-01   -1.333632657e+04  -1.338668795e+04  2.0e+03  26.40 
+7   1.3e+05  4.6e+00  1.6e+03  9.86e-01   -1.400550985e+04  -1.402832957e+04  8.9e+02  26.77 
+8   1.8e+04  6.7e-01  2.3e+02  1.00e+00   -1.477095024e+04  -1.477426016e+04  1.3e+02  27.37 
+9   2.5e+03  9.2e-02  3.1e+01  1.00e+00   -1.488406116e+04  -1.488451810e+04  1.8e+01  27.96 
+10  3.3e+02  1.2e-02  4.1e+00  1.00e+00   -1.489998329e+04  -1.490004404e+04  2.4e+00  28.56 
+11  1.0e+02  3.8e-03  1.3e+00  1.00e+00   -1.490162963e+04  -1.490164842e+04  7.3e-01  28.93 
+12  1.5e+01  5.5e-04  1.9e-01  1.00e+00   -1.490226256e+04  -1.490226529e+04  1.1e-01  29.41 
+13  1.9e+00  6.9e-05  2.3e-02  1.00e+00   -1.490235779e+04  -1.490235814e+04  1.3e-02  29.87 
+14  1.1e-01  4.1e-06  1.4e-03  1.00e+00   -1.490237098e+04  -1.490237100e+04  7.9e-04  30.28 
+15  8.7e-03  3.0e-07  1.1e-04  1.00e+00   -1.490237180e+04  -1.490237181e+04  5.9e-05  30.96 
+16  2.0e-03  3.7e-08  9.6e-05  1.00e+00   -1.490237187e+04  -1.490237187e+04  7.2e-06  31.37 
+Optimizer terminated. Time: 31.64   
+
+Solve time: 31.651860005
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

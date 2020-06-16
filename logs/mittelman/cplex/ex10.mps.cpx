@@ -1,0 +1,46 @@
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 1
+CPXPARAM_SolutionType                            2
+CPXPARAM_TimeLimit                               10000
+Tried aggregator 1 time.
+DUAL formed by presolve
+LP Presolve eliminated 6634 rows and 1744 columns.
+Aggregator did 40 substitutions.
+Reduced LP has 15896 rows, 78830 columns, and 1048096 nonzeros.
+Presolve time = 1.13 sec. (547.25 ticks)
+Symmetry aggregator did 71007 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 0 rows and 26 columns.
+Reduced LP has 3967 rows, 19726 columns, and 261152 nonzeros.
+Presolve time = 0.03 sec. (23.54 ticks)
+Parallel mode: none, using 1 thread for barrier
+Number of nonzeros in lower triangle of A*A' = 668651
+Using Nested Dissection ordering
+Total time for automatic ordering = 0.26 sec. (261.33 ticks)
+Summary statistics for Cholesky factor:
+  Rows in Factor            = 3967
+  Integer space required    = 38815
+  Total non-zeros in factor = 6211529
+  Total FP ops to factor    = 12570060415
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  -1.5857700e+04   0.0000000e+00  8.50e+05  0.00e+00  2.35e+07  1.00e+00
+   1   9.7556625e+01   9.9914126e+01  2.39e+03  0.00e+00  2.02e+04  9.05e-03
+   2   8.9201792e+01   9.9999593e+01  3.67e+02  0.00e+00  3.25e+03  1.35e-01
+   3   9.6506787e+01   9.9924588e+01  8.12e+01  0.00e+00  8.35e+02  1.08e+00
+   4   9.8987934e+01   9.9978707e+01  1.91e+01  0.00e+00  1.97e+02  3.10e+01
+   5   9.9886849e+01   9.9993368e+01  1.99e+00  0.00e+00  2.05e+01  6.61e+05
+   6   9.9997730e+01   9.9998637e+01  1.70e-02  0.00e+00  1.90e-01  1.72e+07
+   7   1.0000000e+02   1.0000000e+02  1.70e-06  0.00e+00  4.24e-05  5.28e+10
+Barrier time = 5.11 sec. (15620.03 ticks)
+
+Total time on 1 threads = 6.26 sec. (16175.73 ticks)
+Barrier time = 6.27 sec. (16191.03 ticks)
+
+Total time on 1 threads = 6.27 sec. (16191.03 ticks)
+Solver name: CPLEX
+Solve time: 6.26855298
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

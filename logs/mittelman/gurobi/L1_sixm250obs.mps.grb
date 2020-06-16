@@ -1,0 +1,42 @@
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (linux64)
+Optimize a model with 986069 rows, 428032 columns and 4280320 nonzeros
+Model fingerprint: 0xf49c4c2d
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-06, 5e-02]
+  Bounds range     [1e+00, 4e+05]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 198875 rows and 401123 columns (presolve time = 42s) ...
+Presolve removed 855688 rows and 404372 columns
+Presolve time: 42.74s
+Presolved: 130381 rows, 23660 columns, 785922 nonzeros
+Elapsed ordering time = 5s
+Elapsed ordering time = 5s
+Elapsed ordering time = 8s
+Elapsed ordering time = 10s
+Elapsed ordering time = 10s
+Ordering time: 12.44s
+
+Barrier statistics:
+ Dense cols : 499
+ AA' NZ     : 3.749e+06
+ Factor NZ  : 1.235e+08 (roughly 1.0 GBytes of memory)
+ Factor Ops : 9.571e+11 (roughly 20 seconds per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.03126930e+09 -1.06173342e+11  4.91e+06 5.98e+03  1.71e+09    81s
+   1   6.03126930e+09 -1.06173342e+11  4.91e+06 5.98e+03  1.71e+09   104s
+   2   6.03126930e+09 -1.06173342e+11  4.91e+06 5.98e+03  1.71e+09   128s
+
+Barrier performed 2 iterations in 127.65 seconds
+Numerical trouble encountered
+
+Model may be infeasible or unbounded.  Consider using the
+homogeneous algorithm (through parameter 'BarHomogeneous')
+
+Solver name: Gurobi
+Solve time: 128.685530734
+Termination status: NUMERICAL_ERROR
+Result count: 0

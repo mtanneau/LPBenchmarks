@@ -1,0 +1,35 @@
+Original LP has 160792 row(s), 120793 column(s), and 440387 non-zero(s)
+Working LP has 201189 row(s), 322380 column(s), and 1001965 non-zero(s)
+Matrix A has 1001965 non-zeros
+Matrix S = A*A' has 1194002 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 5323785 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   2.300765627e-07; rpi =  2.4e+00; rdi =  9.8e-01; gap =  4.6e-08
+  1: obj =   2.720137812e+04; rpi =  2.4e-01; rdi =  1.5e-01; gap =  1.9e+00
+  2: obj =   3.136662679e+03; rpi =  2.4e-02; rdi =  2.0e-02; gap =  2.4e+00
+  3: obj =   5.785185617e+02; rpi =  4.2e-03; rdi =  2.3e-03; gap =  1.8e+00
+  4: obj =   2.486863788e+02; rpi =  1.1e-03; rdi =  7.5e-04; gap =  1.3e+00
+  5: obj =   1.124363674e+02; rpi =  4.3e-04; rdi =  2.1e-04; gap =  1.1e+00
+  6: obj =   8.716684836e+01; rpi =  2.2e-04; rdi =  6.6e-05; gap =  6.3e-01
+  7: obj =   7.635039649e+01; rpi =  1.2e-04; rdi =  2.6e-05; gap =  4.1e-01
+  8: obj =   7.117888968e+01; rpi =  7.8e-05; rdi =  1.1e-05; gap =  2.7e-01
+  9: obj =   6.585907342e+01; rpi =  3.8e-05; rdi =  5.5e-06; gap =  1.5e-01
+ 10: obj =   6.244719529e+01; rpi =  1.2e-05; rdi =  1.9e-06; gap =  5.6e-02
+ 11: obj =   6.153554151e+01; rpi =  4.0e-06; rdi =  4.9e-07; gap =  2.0e-02
+ 12: obj =   6.133369944e+01; rpi =  2.2e-06; rdi =  2.1e-07; gap =  1.2e-02
+ 13: obj =   6.124356716e+01; rpi =  1.5e-06; rdi =  1.0e-07; gap =  7.1e-03
+ 14: obj =   6.115215519e+01; rpi =  8.2e-07; rdi =  3.7e-08; gap =  3.6e-03
+ 15: obj =   6.106883829e+01; rpi =  2.4e-07; rdi =  1.5e-08; gap =  1.4e-03
+ 16: obj =   6.105349722e+01; rpi =  1.4e-07; rdi =  1.2e-08; gap =  1.0e-03
+ 17: obj =   6.104023089e+01; rpi =  7.1e-08; rdi =  7.0e-09; gap =  5.6e-04
+NUMERIC INSTABILITY; SEARCH TERMINATED
+Best point   6.104023089e+01 was reached on iteration 17
+Solver name: GLPK
+Solve time: 96.476669366
+Termination status: NUMERICAL_ERROR
+Result count: 1
+Primal status: INFEASIBLE_POINT
+Dual status: NO_SOLUTION

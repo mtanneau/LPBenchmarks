@@ -1,0 +1,95 @@
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 986069          
+  Cones                  : 0               
+  Scalar variables       : 428032          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 7267
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 89.47           
+Lin. dep.  - number                 : 772303          
+Presolve terminated. Time: 97.12   
+GP based matrix reordering started.
+GP based matrix reordering terminated.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 986069          
+  Cones                  : 0               
+  Scalar variables       : 428032          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 155173
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 310513            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 4.66              dense det. time        : 0.91            
+Factor     - ML order time          : 0.61              GP order time          : 2.23            
+Factor     - nonzeros before factor : 3.96e+05          after factor           : 9.82e+06        
+Factor     - dense dim.             : 164               flops                  : 2.37e+10        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   4.5e+08  3.0e+04  6.1e+05  0.00e+00   5.616232574e+05   5.610135358e+05   1.0e+06  102.46
+1   4.4e+08  3.0e+04  2.0e+06  -1.00e+00  5.616027735e+05   5.596078352e+05   9.8e+05  103.41
+2   3.9e+08  2.6e+04  1.7e+06  -1.00e+00  5.615943934e+05   5.596792210e+05   8.7e+05  104.33
+3   1.5e+08  1.4e+04  4.7e+05  -1.00e+00  5.615985972e+05   5.630270810e+05   3.3e+05  105.75
+4   2.9e+07  9.0e+03  1.2e+05  -1.00e+00  5.616723505e+05   5.598204162e+05   6.5e+04  106.98
+5   1.6e+07  5.9e+03  6.3e+04  -1.00e+00  5.616640720e+05   5.599620833e+05   3.6e+04  107.91
+6   4.6e+06  1.9e+03  2.8e+04  -1.00e+00  5.615901314e+05   5.643988881e+05   1.0e+04  108.95
+7   2.1e+06  8.4e+02  1.7e+03  -9.99e-01  5.614207648e+05   5.619602686e+05   4.8e+03  110.08
+8   2.0e+05  1.5e+02  2.6e+03  -9.97e-01  5.586912740e+05   5.663211875e+05   4.5e+02  111.51
+9   2.0e+03  1.5e+00  2.6e+01  -9.62e-01  4.566592509e+05   5.252156812e+05   4.5e+00  112.79
+10  1.1e+01  8.2e-03  1.4e-01  3.38e-01   4.035239538e+05   4.118652666e+05   2.4e-02  113.90
+11  5.9e-01  4.5e-04  7.6e-03  9.95e-01   3.359483794e+05   3.359659981e+05   1.3e-03  115.09
+12  4.3e-02  3.3e-05  5.5e-04  1.00e+00   2.381913841e+05   2.381924898e+05   9.7e-05  116.19
+13  1.2e-02  9.2e-06  1.6e-04  1.00e+00   1.109725257e+05   1.109728093e+05   2.7e-05  117.29
+14  4.5e-03  3.4e-06  5.8e-05  1.00e+00   4.161046633e+04   4.161057269e+04   1.0e-05  118.32
+15  4.4e-04  3.3e-07  5.7e-06  1.00e+00   7.364654989e+03   7.364667519e+03   9.9e-07  119.92
+16  1.6e-04  1.2e-07  2.1e-06  1.00e+00   5.765791240e+03   5.765795811e+03   3.6e-07  121.25
+17  1.6e-04  1.2e-07  2.0e-06  1.00e+00   5.724169838e+03   5.724174239e+03   3.5e-07  122.35
+18  1.5e-04  1.1e-07  1.9e-06  1.00e+00   5.648076852e+03   5.648080949e+03   3.2e-07  123.34
+19  1.5e-04  1.1e-07  1.9e-06  1.00e+00   5.647783382e+03   5.647787476e+03   3.2e-07  124.33
+20  1.2e-04  9.0e-08  1.5e-06  1.00e+00   5.465646624e+03   5.465649990e+03   2.7e-07  125.31
+21  7.1e-05  5.2e-08  8.9e-07  1.00e+00   5.114104724e+03   5.114106669e+03   1.5e-07  126.65
+22  4.3e-05  3.0e-08  5.8e-07  1.00e+00   4.910434838e+03   4.910435967e+03   8.9e-08  127.94
+23  3.3e-05  2.3e-08  5.4e-07  1.00e+00   4.844477050e+03   4.844477923e+03   6.8e-08  129.02
+24  2.6e-05  1.8e-08  6.0e-07  1.00e+00   4.797017317e+03   4.797018016e+03   5.3e-08  130.11
+25  2.1e-05  1.5e-08  6.5e-07  1.00e+00   4.767436807e+03   4.767437400e+03   4.3e-08  131.19
+26  1.6e-05  1.1e-08  8.2e-07  1.00e+00   4.735978602e+03   4.735979094e+03   3.3e-08  132.28
+27  1.3e-05  9.0e-09  1.4e-06  1.00e+00   4.715529986e+03   4.715530460e+03   2.7e-08  133.46
+28  9.0e-06  6.2e-09  2.6e-06  1.00e+00   4.688288333e+03   4.688288845e+03   1.8e-08  134.54
+29  6.8e-06  4.6e-09  3.9e-06  1.00e+00   4.673719971e+03   4.673720571e+03   1.4e-08  135.74
+30  5.8e-06  3.9e-09  4.5e-06  1.00e+00   4.667232912e+03   4.667233555e+03   1.2e-08  136.84
+31  5.1e-06  3.5e-09  5.0e-06  1.00e+00   4.662900291e+03   4.662900978e+03   1.0e-08  137.85
+32  4.2e-06  2.9e-09  5.6e-06  1.00e+00   4.657539574e+03   4.657540307e+03   8.6e-09  138.96
+33  3.3e-06  2.2e-09  6.6e-06  1.00e+00   4.650539552e+03   4.650540361e+03   6.5e-09  140.04
+34  2.7e-06  1.4e-09  7.8e-06  1.00e+00   4.643311745e+03   4.643312661e+03   4.2e-09  141.27
+35  2.1e-06  6.9e-10  4.1e-06  1.00e+00   4.636275819e+03   4.636276297e+03   2.1e-09  142.46
+36  2.1e-06  6.9e-10  4.1e-06  1.00e+00   4.636275819e+03   4.636276297e+03   2.1e-09  143.89
+37  9.7e-07  3.2e-10  1.9e-06  1.00e+00   4.632673236e+03   4.632673460e+03   9.6e-10  145.52
+38  6.1e-08  6.4e-11  1.2e-07  1.00e+00   4.629681524e+03   4.629681538e+03   6.0e-11  147.33
+Optimizer terminated. Time: 148.74  
+
+Solve time: 148.779224031
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT
