@@ -1,0 +1,32 @@
+Original LP has 3173 row(s), 62212 column(s), and 490472 non-zero(s)
+Working LP has 65381 row(s), 125287 column(s), and 615759 non-zero(s)
+Matrix A has 615759 non-zeros
+Matrix S = A*A' has 581615 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 607682 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   0.000000000e+00; rpi =  6.1e+00; rdi =  8.0e+02; gap =  0.0e+00
+  1: obj =   0.000000000e+00; rpi =  1.0e+00; rdi =  8.0e+01; gap =  9.0e+04
+  2: obj =   0.000000000e+00; rpi =  1.0e-01; rdi =  8.1e+00; gap =  3.8e+04
+  3: obj =   0.000000000e+00; rpi =  1.0e-02; rdi =  8.2e-01; gap =  5.0e+03
+  4: obj =   0.000000000e+00; rpi =  1.0e-03; rdi =  8.3e-02; gap =  5.1e+02
+  5: obj =   0.000000000e+00; rpi =  1.0e-04; rdi =  8.3e-03; gap =  5.1e+01
+  6: obj =   0.000000000e+00; rpi =  1.0e-05; rdi =  8.3e-04; gap =  5.1e+00
+  7: obj =   0.000000000e+00; rpi =  1.0e-06; rdi =  8.3e-05; gap =  5.1e-01
+  8: obj =   0.000000000e+00; rpi =  1.0e-07; rdi =  8.3e-06; gap =  5.1e-02
+  9: obj =   0.000000000e+00; rpi =  1.0e-08; rdi =  8.3e-07; gap =  5.1e-03
+ 10: obj =   0.000000000e+00; rpi =  1.0e-09; rdi =  8.3e-08; gap =  5.1e-04
+ 11: obj =   0.000000000e+00; rpi =  1.0e-10; rdi =  8.3e-09; gap =  5.1e-05
+ 12: obj =   0.000000000e+00; rpi =  1.0e-11; rdi =  8.3e-10; gap =  5.1e-06
+ 13: obj =   0.000000000e+00; rpi =  1.0e-12; rdi =  8.3e-11; gap =  5.1e-07
+ 14: obj =   0.000000000e+00; rpi =  1.3e-13; rdi =  8.3e-12; gap =  5.1e-08
+ 15: obj =   0.000000000e+00; rpi =  6.6e-14; rdi =  8.3e-13; gap =  5.1e-09
+OPTIMAL SOLUTION FOUND
+Solver name: GLPK
+Solve time: 261.487453073
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

@@ -1,0 +1,44 @@
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (linux64)
+Optimize a model with 160792 rows, 80795 columns and 440387 nonzeros
+Model fingerprint: 0xd41101d6
+Coefficient statistics:
+  Matrix range     [5e-03, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [4e+00, 1e+01]
+  RHS range        [5e-04, 2e-02]
+Presolve removed 40397 rows and 40397 columns
+Presolve time: 0.77s
+Presolved: 120395 rows, 40398 columns, 359593 nonzeros
+Ordering time: 1.23s
+
+Barrier statistics:
+ Dense cols : 1
+ AA' NZ     : 7.528e+05
+ Factor NZ  : 4.777e+06 (roughly 100 MBytes of memory)
+ Factor Ops : 6.488e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.44914217e-01 -1.40593510e+04  6.67e-01 0.00e+00  1.32e-01     3s
+   1   4.47147363e-01 -6.69283397e+02  8.80e-13 1.68e-05  4.25e-03     3s
+   2   4.24403705e-01 -6.69180642e-01  7.97e-12 3.05e-14  6.77e-06     3s
+   3   1.60269750e-02 -6.71814412e-04  5.83e-12 1.75e-17  1.03e-07     3s
+   4   1.07620282e-02  2.23376607e-03  3.57e-12 1.32e-14  5.28e-08     4s
+   5   8.89018296e-03  8.00839278e-03  2.44e-11 6.66e-15  5.46e-09     4s
+   6   8.78408276e-03  8.67359339e-03  1.23e-10 8.44e-15  6.84e-10     4s
+   7   8.99251217e-03  8.77119302e-03  8.17e-12 4.44e-15  1.37e-09     5s
+   8   8.78274218e-03  8.77589312e-03  3.40e-09 9.71e-16  4.24e-11     5s
+   9   8.78260139e-03  8.78226159e-03  2.10e-09 4.55e-17  2.10e-12     5s
+  10   8.78250613e-03  8.78246425e-03  4.02e-09 1.35e-14  2.60e-13     6s
+  11   8.78248721e-03  8.78248381e-03  1.91e-10 1.03e-14  2.33e-14     6s
+
+Barrier solved model in 11 iterations and 5.81 seconds
+Optimal objective 8.78248721e-03
+
+Solver name: Gurobi
+Solve time: 5.856724765
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

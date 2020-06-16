@@ -1,0 +1,83 @@
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 5995            
+  Cones                  : 0               
+  Scalar variables       : 197472          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 63
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.02            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 1.87    
+GP based matrix reordering started.
+GP based matrix reordering terminated.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 5995            
+  Cones                  : 0               
+  Scalar variables       : 197472          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 4508
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 187204            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.79              dense det. time        : 0.15            
+Factor     - ML order time          : 0.01              GP order time          : 0.07            
+Factor     - nonzeros before factor : 3.79e+04          after factor           : 1.11e+05        
+Factor     - dense dim.             : 2                 flops                  : 6.10e+06        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   7.0e+00  1.1e+03  5.4e+07  0.00e+00   4.532261635e+06   0.000000000e+00   1.4e+02  2.87  
+1   1.0e+00  1.6e+02  7.9e+06  -9.20e-01  3.663668276e+06   2.205079298e-04   2.1e+01  2.97  
+2   8.1e-02  1.3e+01  6.3e+05  -5.52e-01  1.023665796e+06   -1.399522951e-04  1.7e+00  3.07  
+3   1.0e-02  1.6e+00  7.9e+04  5.66e-01   1.575734862e+05   -1.155886516e-05  2.1e-01  3.17  
+4   1.4e-04  2.3e-02  1.1e+03  9.33e-01   2.295193075e+03   4.886737091e-04   2.9e-03  3.29  
+5   3.6e-06  5.7e-04  2.8e+01  9.99e-01   5.735869585e+01   5.227587783e-02   7.3e-05  3.42  
+6   1.2e-05  8.9e-05  3.7e+00  1.00e+00   9.001829849e+00   1.261757462e+00   9.8e-06  3.56  
+7   3.8e-04  7.7e-05  3.2e+00  9.95e-01   8.242917438e+00   1.572637646e+00   8.4e-06  3.67  
+8   3.8e-04  7.6e-05  3.2e+00  1.00e+00   8.169114573e+00   1.563002858e+00   8.4e-06  3.78  
+9   3.6e-04  6.7e-05  3.0e+00  1.00e+00   7.723219856e+00   1.528858611e+00   7.8e-06  3.89  
+10  3.6e-04  6.6e-05  3.0e+00  1.00e+00   7.685843969e+00   1.524921813e+00   7.8e-06  3.99  
+11  2.0e-04  2.8e-05  1.6e+00  9.99e-01   4.990318047e+00   1.728827530e+00   4.1e-06  4.13  
+12  8.7e-05  2.9e-06  2.2e-01  9.99e-01   2.392608677e+00   1.932648666e+00   5.8e-07  4.26  
+13  8.3e-05  3.7e-07  2.1e-01  9.64e-01   2.383611645e+00   1.935858228e+00   5.3e-07  4.37  
+14  5.6e-05  1.2e-07  4.6e-02  9.60e-01   2.045683662e+00   1.946611753e+00   1.1e-07  4.61  
+15  5.1e-05  8.0e-08  4.2e-02  9.89e-01   2.039947015e+00   1.949340298e+00   1.0e-07  4.75  
+16  5.0e-05  8.0e-08  4.2e-02  9.94e-01   2.039695643e+00   1.949315704e+00   1.0e-07  4.90  
+17  4.3e-05  6.7e-08  3.8e-02  9.93e-01   2.033216681e+00   1.950141498e+00   9.4e-08  5.04  
+18  3.8e-05  4.2e-08  3.6e-02  9.95e-01   2.029258888e+00   1.951494821e+00   8.8e-08  5.18  
+19  7.2e-05  3.2e-08  2.2e-02  9.97e-01   2.000787659e+00   1.952065388e+00   5.5e-08  5.33  
+20  2.0e-04  3.0e-08  3.5e-03  9.98e-01   1.959702755e+00   1.952180743e+00   7.8e-09  5.47  
+21  2.0e-04  3.0e-08  3.5e-03  9.99e-01   1.959702755e+00   1.952180743e+00   7.8e-09  5.56  
+22  2.0e-04  3.8e-08  3.3e-03  -9.75e-01  1.959957595e+00   1.952440811e+00   7.5e-09  5.70  
+23  2.0e-04  3.8e-08  3.3e-03  -9.65e-01  1.959957595e+00   1.952440811e+00   7.5e-09  5.81  
+24  2.0e-04  3.8e-08  3.3e-03  -9.60e-01  1.959957595e+00   1.952440811e+00   7.5e-09  5.92  
+25  2.0e-04  3.8e-08  3.3e-03  -9.52e-01  1.959957595e+00   1.952440811e+00   7.5e-09  6.03  
+26  2.0e-04  3.8e-08  3.3e-03  -8.76e-01  1.959957595e+00   1.952440811e+00   7.5e-09  6.14  
+Optimizer terminated. Time: 6.32    
+
+Solve time: 6.335444832
+Termination status: OPTIMAL
+Result count: 1
+Primal status: UNKNOWN_RESULT_STATUS
+Dual status: UNKNOWN_RESULT_STATUS

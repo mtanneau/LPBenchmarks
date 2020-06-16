@@ -1,0 +1,36 @@
+Read MPS format model from file dat/rmp/phone_32768_5.mps
+Reading time = 0.23 seconds
+: 32777 rows, 65553 columns, 557068 nonzeros
+Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+Optimize a model with 32777 rows, 65553 columns and 557068 nonzeros
+Model fingerprint: 0x5a876676
+Coefficient statistics:
+  Matrix range     [3e-05, 1e+00]
+  Objective range  [1e-03, 1e+04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.622e+05
+ Factor NZ  : 2.953e+05 (roughly 40 MBytes of memory)
+ Factor Ops : 2.667e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.84742993e+04  0.00000000e+00  6.32e+00 3.00e+00  3.95e+02     0s
+   1   4.62367746e+02 -3.68586330e+06  3.58e-02 5.40e+00  6.01e+01     0s
+   2  -2.46453225e+01 -1.47374112e+05  6.31e-04 2.35e-01  2.37e+00     0s
+   3  -3.53582823e+01 -7.41119955e+03  4.13e-12 9.81e-03  1.17e-01     0s
+   4  -3.60947831e+01 -4.41274078e+01  7.10e-10 2.65e-07  1.23e-04     0s
+   5  -3.63457442e+01 -3.73927891e+01  6.58e-07 1.84e-08  1.60e-05     0s
+   6  -3.67931450e+01 -3.70120553e+01  2.41e-07 5.09e-09  3.34e-06     0s
+   7  -3.68977480e+01 -3.69025436e+01  5.24e-09 1.58e-10  7.33e-08     0s
+   8  -3.68999999e+01 -3.69000000e+01  1.23e-09 1.82e-12  1.19e-12     0s
+
+Barrier solved model in 8 iterations and 0.42 seconds
+Optimal objective -3.68999999e+01
+
+Solve time: 0.420950269
+Barrier iterations: 8

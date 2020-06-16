@@ -1,0 +1,43 @@
+Original LP has 479119 row(s), 36786 column(s), and 1047675 non-zero(s)
+Working LP has 479119 row(s), 515905 column(s), and 1526794 non-zero(s)
+Matrix A has 1526794 non-zeros
+Matrix S = A*A' has 525607668 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+
+signal (11): Segmentation fault
+in expression starting at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/glpk.jl:21
+_glp_amd_1 at /workspace/srcdir/glpk-4.64/src/amd/amd_1.c:105
+_glp_amd_order at /workspace/srcdir/glpk-4.64/src/amd/amd_order.c:187
+_glp_mat_amd_order1 at /workspace/srcdir/glpk-4.64/src/draft/glpmat.c:508
+initialize at /workspace/srcdir/glpk-4.64/src/draft/glpipm.c:182 [inlined]
+_glp_ipm_solve at /workspace/srcdir/glpk-4.64/src/draft/glpipm.c:1085
+glp_interior at /workspace/srcdir/glpk-4.64/src/draft/glpapi08.c:207
+interior at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/GLPK.jl:229
+_solve_linear_problem at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/MOI_wrapper.jl:1260 [inlined]
+optimize! at /home/mtanneau/.julia/packages/GLPK/oTTtu/src/MOI_wrapper.jl:1362
+optimize! at /home/mtanneau/.julia/packages/MathOptInterface/RmalA/src/Bridges/bridge_optimizer.jl:239 [inlined]
+macro expansion at ./util.jl:234 [inlined]
+run at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/LPBenchmark.jl:45
+run_glpk at /home/mtanneau/projects/def-alodi/mtanneau/LPBenchmarks/src/glpk.jl:15
+_jl_invoke at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/gf.c:2158 [inlined]
+jl_apply_generic at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/gf.c:2322
+jl_apply at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/julia.h:1700 [inlined]
+do_call at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/interpreter.c:369
+eval_value at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/interpreter.c:458
+eval_stmt_value at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/interpreter.c:409 [inlined]
+eval_body at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/interpreter.c:817
+jl_interpret_toplevel_thunk at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/interpreter.c:911
+jl_toplevel_eval_flex at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/toplevel.c:814
+jl_parse_eval_all at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/ast.c:872
+jl_load at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/toplevel.c:872
+include at ./Base.jl:377
+exec_options at ./client.jl:288
+_start at ./client.jl:484
+jfptr__start_25435 at /lustre03/project/6005065/mtanneau/LPBenchmarks/JuliaLP.so (unknown line)
+_jl_invoke at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/gf.c:2144 [inlined]
+jl_apply_generic at /tmp/ebuser/avx512/Julia/1.4.1/GCC-7.3.0/julia-1.4.1/src/gf.c:2322
+unknown function (ip: 0x4018e1)
+unknown function (ip: 0x401513)
+__libc_start_main at /cvmfs/soft.computecanada.ca/nix/store/63pk88rnmkzjblpxydvrmskkc8ci7cx6-glibc-2.24/lib/libc.so.6 (unknown line)
+unknown function (ip: 0x4015b9)
+Allocations: 208726925 (Pool: 208529463; Big: 197462); GC: 45

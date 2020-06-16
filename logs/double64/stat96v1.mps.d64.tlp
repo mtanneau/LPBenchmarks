@@ -1,0 +1,92 @@
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+┌ Warning: TODO: dual bounds strengthening for free column singletons
+└ @ Tulip ~/.julia/packages/Tulip/w8T7U/src/Presolve/Presolve.jl:661
+
+Problem info
+  Name        : BPMPD
+  Constraints : 5995
+  Variables   : 197472
+  Non-zeros   : 588798
+
+Reduced problem info
+  Constraints : 5846  (removed 149)
+  Variables   : 190929  (removed 6543)
+  Non-zeros   : 567899  (removed 20899)
+Presolve time : 0.416s
+
+Optimizer info
+Linear solver options
+  Arithmetic   : Double64
+  Backend      : LDLFactorizations.jl
+  System       : Augmented system
+
+ Itn            PObj            DObj     PFeas    DFeas    GFeas       Mu  Time
+   0  +3.4136871e+06  +0.0000000e+00  4.45e-01 7.79e+01 3.41e+06  1.0e+00  0.12
+   1  +1.7484082e+06  -6.5298032e-03  3.68e-02 3.74e+00 2.02e+05  5.9e-02  0.81
+   2  +5.4355356e+04  -2.0182958e-03  7.51e-04 1.50e-01 3.02e+03  8.9e-04  1.76
+   3  +9.3354068e+01  +8.1470678e-04  1.62e-05 4.91e-04 5.10e+00  1.5e-06  2.40
+   4  +1.2045677e-01  +2.0491673e-02  3.74e-06 5.63e-07 5.46e-03  1.9e-09  2.96
+   5  +2.7957251e-01  +2.7933881e-01  9.34e-07 1.06e-08 3.20e-06  2.4e-10  3.53
+   6  +1.9292634e+00  +1.9291414e+00  1.19e-07 1.75e-09 3.91e-07  3.0e-11  4.19
+   7  +1.9444222e+00  +1.9443002e+00  1.17e-07 1.72e-09 3.85e-07  2.9e-11  4.84
+   8  +2.4582703e+00  +2.4581519e+00  8.03e-08 1.18e-09 2.64e-07  2.0e-11  5.56
+   9  +3.0661035e+00  +3.0659947e+00  4.92e-08 7.26e-10 1.62e-07  1.2e-11  6.35
+  10  +3.1585142e+00  +3.1584175e+00  4.21e-08 6.21e-10 1.38e-07  1.1e-11  7.02
+  11  +3.3509281e+00  +3.3508563e+00  2.89e-08 4.27e-10 9.51e-08  7.2e-12  7.66
+  12  +3.5861689e+00  +3.5861308e+00  1.39e-08 2.05e-10 4.58e-08  3.5e-12  8.31
+  13  +3.6687709e+00  +3.6687489e+00  7.72e-09 1.14e-10 2.54e-08  1.9e-12  8.96
+  14  +3.6930614e+00  +3.6930456e+00  5.46e-09 8.06e-11 1.80e-08  1.4e-12  9.62
+  15  +3.6978889e+00  +3.6978746e+00  4.89e-09 7.22e-11 1.61e-08  1.2e-12  10.26
+  16  +3.7021159e+00  +3.7021031e+00  4.37e-09 6.45e-11 1.44e-08  1.1e-12  10.91
+  17  +3.7069025e+00  +3.7068914e+00  3.73e-09 5.51e-11 1.23e-08  9.4e-13  11.54
+  18  +3.7135565e+00  +3.7135479e+00  2.84e-09 4.19e-11 9.32e-09  7.1e-13  12.17
+  19  +3.7178557e+00  +3.7178489e+00  2.18e-09 3.22e-11 7.17e-09  5.5e-13  12.83
+  20  +3.7207621e+00  +3.7207568e+00  1.65e-09 2.44e-11 5.43e-09  4.1e-13  13.46
+  21  +3.7233616e+00  +3.7233582e+00  1.03e-09 1.51e-11 3.37e-09  2.6e-13  14.10
+  22  +3.7236579e+00  +3.7236551e+00  8.09e-10 1.19e-11 2.66e-09  2.0e-13  14.73
+  23  +3.7251781e+00  +3.7251765e+00  4.46e-10 6.59e-12 1.47e-09  1.1e-13  15.51
+  24  +3.7251544e+00  +3.7251528e+00  4.43e-10 6.55e-12 1.46e-09  1.1e-13  16.16
+  25  +3.7248742e+00  +3.7248727e+00  4.02e-10 5.93e-12 1.32e-09  9.9e-14  16.81
+  26  +3.7239164e+00  +3.7239154e+00  2.48e-10 3.66e-12 8.14e-10  6.1e-14  17.51
+  27  +3.7232864e+00  +3.7232856e+00  2.08e-10 3.07e-12 6.84e-10  5.0e-14  18.13
+  28  +3.7223133e+00  +3.7223127e+00  1.54e-10 2.28e-12 5.07e-10  3.7e-14  18.76
+  29  +3.7215126e+00  +3.7215121e+00  1.18e-10 1.75e-12 3.89e-10  2.8e-14  19.40
+  30  +3.7211852e+00  +3.7211847e+00  1.04e-10 1.54e-12 3.43e-10  2.5e-14  20.05
+  31  +3.7212962e+00  +3.7212957e+00  9.86e-11 1.46e-12 3.24e-10  2.3e-14  20.97
+  32  +3.7210023e+00  +3.7210019e+00  8.90e-11 1.31e-12 2.93e-10  2.1e-14  21.60
+  33  +3.7203124e+00  +3.7203121e+00  6.21e-11 9.17e-13 2.04e-10  1.4e-14  22.31
+  34  +3.7199766e+00  +3.7199763e+00  5.19e-11 7.67e-13 1.71e-10  1.2e-14  22.95
+  35  +3.7194677e+00  +3.7194675e+00  4.05e-11 5.98e-13 1.33e-10  9.2e-15  23.59
+  36  +3.7191677e+00  +3.7191676e+00  3.38e-11 5.00e-13 1.11e-10  7.7e-15  24.23
+  37  +3.7188891e+00  +3.7188890e+00  2.61e-11 3.85e-13 8.57e-11  5.9e-15  24.94
+  38  +3.7185689e+00  +3.7185688e+00  1.88e-11 2.78e-13 6.18e-11  4.2e-15  25.71
+  39  +3.7183395e+00  +3.7183394e+00  1.43e-11 2.11e-13 4.69e-11  3.2e-15  26.34
+  40  +3.7181791e+00  +3.7181790e+00  1.12e-11 1.66e-13 3.69e-11  2.5e-15  26.96
+  41  +3.7179475e+00  +3.7179474e+00  6.75e-12 9.97e-14 2.22e-11  1.5e-15  27.59
+  42  +3.7177985e+00  +3.7177985e+00  3.77e-12 5.57e-14 1.24e-11  8.3e-16  28.31
+Solver exited with status Trm_Optimal
+Solve time: 30.418229269
+Barrier iterations: 42

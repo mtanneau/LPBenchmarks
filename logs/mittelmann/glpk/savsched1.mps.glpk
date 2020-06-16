@@ -1,0 +1,40 @@
+Original LP has 295989 row(s), 328575 column(s), and 1770507 non-zero(s)
+Working LP has 548720 row(s), 840824 column(s), and 2535487 non-zero(s)
+Matrix A has 2535487 non-zeros
+Matrix S = A*A' has 6721494 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 17120554 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   4.379553036e+07; rpi =  1.1e+03; rdi =  5.4e+00; gap =  1.0e+00
+  1: obj =   4.182725131e+07; rpi =  6.3e+02; rdi =  4.6e+00; gap =  1.0e+00
+  2: obj =   3.976861554e+07; rpi =  3.8e+02; rdi =  3.6e+00; gap =  1.0e+00
+  3: obj =   3.292063908e+07; rpi =  1.7e+02; rdi =  2.1e+00; gap =  1.1e+00
+  4: obj =   1.714375004e+07; rpi =  5.5e+01; rdi =  1.0e+00; gap =  1.2e+00
+  5: obj =   4.303178460e+06; rpi =  9.2e+00; rdi =  7.1e-01; gap =  2.0e+00
+  6: obj =   1.586489727e+06; rpi =  2.8e+00; rdi =  2.2e-01; gap =  2.9e+00
+  7: obj =   6.170099421e+05; rpi =  8.7e-01; rdi =  3.0e-02; gap =  2.8e+00
+  8: obj =   2.009528441e+05; rpi =  2.3e-01; rdi =  1.1e-02; gap =  3.5e+00
+  9: obj =   9.284633678e+04; rpi =  9.9e-02; rdi =  4.3e-03; gap =  3.8e+00
+ 10: obj =   4.797153352e+04; rpi =  4.6e-02; rdi =  1.0e-03; gap =  3.1e+00
+ 11: obj =   3.248970126e+04; rpi =  3.0e-02; rdi =  4.2e-04; gap =  2.7e+00
+ 12: obj =   2.283899703e+04; rpi =  2.0e-02; rdi =  1.2e-04; gap =  2.2e+00
+ 13: obj =   1.634124613e+04; rpi =  1.4e-02; rdi =  4.8e-05; gap =  2.1e+00
+ 14: obj =   6.017536063e+03; rpi =  4.5e-03; rdi =  8.9e-06; gap =  2.3e+00
+ 15: obj =   2.128421077e+03; rpi =  1.3e-03; rdi =  4.7e-06; gap =  3.3e+00
+ 16: obj =   8.183483248e+02; rpi =  3.7e-04; rdi =  7.5e-07; gap =  2.1e+00
+ 17: obj =   3.906435631e+02; rpi =  1.0e-04; rdi =  1.7e-07; gap =  1.2e+00
+ 18: obj =   2.368349784e+02; rpi =  1.1e-05; rdi =  2.0e-08; gap =  2.5e-01
+ 19: obj =   2.193525427e+02; rpi =  1.1e-06; rdi =  2.0e-09; gap =  2.7e-02
+ 20: obj =   2.175984748e+02; rpi =  1.1e-07; rdi =  2.0e-10; gap =  2.7e-03
+ 21: obj =   2.174230618e+02; rpi =  1.1e-08; rdi =  2.0e-11; gap =  2.7e-04
+ 22: obj =   2.174055205e+02; rpi =  1.1e-09; rdi =  2.0e-12; gap =  2.7e-05
+NUMERIC INSTABILITY; SEARCH TERMINATED
+Best point   2.174055205e+02 was reached on iteration 22
+Solver name: GLPK
+Solve time: 954.454615639
+Termination status: NUMERICAL_ERROR
+Result count: 1
+Primal status: INFEASIBLE_POINT
+Dual status: NO_SOLUTION

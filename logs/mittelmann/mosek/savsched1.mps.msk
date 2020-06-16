@@ -1,0 +1,70 @@
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 295989          
+  Cones                  : 0               
+  Scalar variables       : 328575          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.12            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 4.58    
+GP based matrix reordering started.
+GP based matrix reordering terminated.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 295989          
+  Cones                  : 0               
+  Scalar variables       : 328575          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 266915
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 524908            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 18.51             dense det. time        : 4.52            
+Factor     - ML order time          : 2.82              GP order time          : 7.63            
+Factor     - nonzeros before factor : 3.82e+06          after factor           : 1.20e+07        
+Factor     - dense dim.             : 0                 flops                  : 4.02e+09        
+Factor     - GP saved nzs           : 1.23e+06          GP saved flops         : 8.88e+08        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.5e+05  1.3e+03  2.1e+08  0.00e+00   -1.495303400e+06  2.899947000e+05   1.4e+04  24.62 
+1   1.5e+05  1.3e+03  2.1e+08  -8.49e-01  -1.484695750e+06  2.824342136e+05   1.4e+04  26.45 
+2   1.1e+05  9.6e+02  1.6e+08  -7.00e-01  -1.273017370e+06  2.172480408e+05   1.0e+04  29.50 
+3   7.0e+04  6.2e+02  1.0e+08  -5.49e-02  -1.025726625e+06  1.240675832e+05   6.6e+03  31.88 
+4   6.0e+04  5.3e+02  8.5e+07  3.56e-01   -8.921673157e+05  1.081993657e+05   5.6e+03  33.72 
+5   3.5e+04  3.1e+02  5.0e+07  5.09e-01   -5.519058825e+05  5.543544575e+04   3.3e+03  35.91 
+6   2.5e+04  2.2e+02  3.5e+07  8.75e-01   -3.867534382e+05  3.668612692e+04   2.3e+03  37.74 
+7   1.7e+04  1.5e+02  2.4e+07  1.02e+00   -2.511426089e+05  2.254626368e+04   1.6e+03  39.79 
+8   9.3e+03  8.2e+01  1.3e+07  1.11e+00   -1.322634677e+05  1.112436508e+04   8.7e+02  41.62 
+9   5.2e+03  4.6e+01  7.5e+06  1.16e+00   -7.103062855e+04  5.599491212e+03   4.9e+02  43.48 
+10  2.2e+03  1.9e+01  3.1e+06  1.14e+00   -2.770338147e+04  2.064918181e+03   2.0e+02  45.35 
+11  1.7e+02  1.5e+00  2.4e+05  1.08e+00   -1.998918763e+03  2.099887252e+02   1.6e+01  47.79 
+12  1.2e+01  1.1e-01  1.7e+04  1.01e+00   5.800520364e+01   2.160194222e+02   1.1e+00  49.54 
+13  1.4e-02  1.2e-04  1.9e+01  1.00e+00   2.172227150e+02   2.174018549e+02   1.3e-03  51.29 
+14  1.4e-06  1.6e-08  2.0e-03  1.00e+00   2.174035531e+02   2.174035715e+02   1.3e-07  52.72 
+15  2.9e-08  5.1e-09  1.0e-05  1.00e+00   2.174035712e+02   2.174035713e+02   1.9e-11  54.66 
+Optimizer terminated. Time: 55.46   
+
+Solve time: 55.48771948
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

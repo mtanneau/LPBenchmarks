@@ -1,1 +1,4 @@
-instances/
+dat/
+JuliaLP.so
+precompile.jl
+logs/

@@ -1,0 +1,82 @@
+Open file 'dat/rmp/DER_96_32768_30.mps'
+Reading started.
+Using 'OBJ' as objective vector
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C66605' (66605) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C68377' (68377) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C72823' (72823) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C74326' (74326) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C77300' (77300) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C77308' (77308) of matrix 'A'.
+Read 10000024 number of A nonzeros in 3.21 seconds.
+Read 13613223 number of A nonzeros in 4.33 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 4.38
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 32864           
+  Cones                  : 0               
+  Scalar variables       : 155936          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 32864           
+  Cones                  : 0               
+  Scalar variables       : 155936          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 32864
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 155936            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 4.76              dense det. time        : 0.00            
+Factor     - ML order time          : 0.11              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3.00e+06          after factor           : 3.00e+06        
+Factor     - dense dim.             : 0                 flops                  : 1.51e+09        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   2.0e+08  3.2e+06  1.8e+09  0.00e+00   1.763442235e+06   0.000000000e+00   1.0e+06  7.84  
+1   6.3e+06  1.0e+05  5.7e+07  -1.00e+00  1.824027867e+07   1.647747155e+07   3.2e+04  8.33  
+2   1.7e+06  2.7e+04  1.5e+07  -9.99e-01  9.258849953e+06   7.500192869e+06   8.4e+03  8.84  
+3   4.6e+05  7.4e+03  4.1e+06  -9.93e-01  3.814604545e+06   2.079470482e+06   2.3e+03  9.33  
+4   3.5e+05  5.7e+03  3.2e+06  -8.92e-01  1.846976270e+06   2.743132425e+05   1.8e+03  9.95  
+5   1.3e+05  2.1e+03  1.2e+06  8.20e-01   7.250052747e+05   5.240520001e+05   6.8e+02  10.79 
+6   1.3e+04  2.1e+02  1.2e+05  1.46e+00   2.707200465e+05   2.554183285e+05   6.8e+01  11.28 
+7   1.2e+03  1.9e+01  1.1e+04  1.05e+00   2.282858356e+05   2.269560256e+05   6.0e+00  11.94 
+8   5.2e+02  8.4e+00  4.7e+03  1.01e+00   2.266362043e+05   2.260477732e+05   2.7e+00  12.51 
+9   3.1e+02  5.0e+00  2.8e+03  1.00e+00   2.258829436e+05   2.255320893e+05   1.6e+00  13.05 
+10  2.2e+02  3.6e+00  2.0e+03  1.00e+00   2.255328345e+05   2.252807965e+05   1.1e+00  13.54 
+11  1.3e+02  2.1e+00  1.2e+03  1.00e+00   2.251208939e+05   2.249717372e+05   6.8e-01  14.12 
+12  8.3e+01  1.3e+00  7.4e+02  1.00e+00   2.248766025e+05   2.247838552e+05   4.2e-01  14.62 
+13  5.0e+01  8.0e-01  4.5e+02  1.00e+00   2.246988023e+05   2.246428064e+05   2.5e-01  15.16 
+14  3.4e+01  5.5e-01  3.0e+02  1.00e+00   2.246087037e+05   2.245705890e+05   1.7e-01  15.72 
+15  2.8e+01  4.4e-01  2.5e+02  1.00e+00   2.245718809e+05   2.245410110e+05   1.4e-01  16.23 
+16  2.6e+01  4.2e-01  2.3e+02  1.00e+00   2.245619522e+05   2.245329885e+05   1.3e-01  16.94 
+17  1.9e+01  3.0e-01  1.7e+02  1.00e+00   2.245187226e+05   2.244979130e+05   9.4e-02  17.56 
+18  1.1e+01  1.7e-01  9.8e+01  1.00e+00   2.244709809e+05   2.244587775e+05   5.5e-02  18.46 
+19  7.5e+00  1.2e-01  6.7e+01  1.00e+00   2.244482927e+05   2.244399311e+05   3.8e-02  19.06 
+20  5.5e+00  8.8e-02  4.9e+01  1.00e+00   2.244350660e+05   2.244289043e+05   2.8e-02  19.49 
+21  4.5e+00  7.2e-02  4.0e+01  1.00e+00   2.244282944e+05   2.244232406e+05   2.3e-02  19.92 
+22  3.5e+00  5.6e-02  3.1e+01  1.00e+00   2.244211523e+05   2.244172549e+05   1.8e-02  20.35 
+23  2.4e+00  3.9e-02  2.2e+01  1.00e+00   2.244136614e+05   2.244109541e+05   1.2e-02  20.82 
+24  1.2e+00  1.9e-02  1.1e+01  1.00e+00   2.244049946e+05   2.244036350e+05   6.2e-03  21.38 
+25  7.9e-01  1.3e-02  7.1e+00  1.00e+00   2.244018587e+05   2.244009754e+05   4.0e-03  21.94 
+26  4.4e-01  7.1e-03  4.0e+00  1.00e+00   2.243992511e+05   2.243987544e+05   2.3e-03  22.49 
+27  1.7e-01  2.8e-03  1.6e+00  1.00e+00   2.243971514e+05   2.243969576e+05   8.8e-04  23.17 
+28  1.7e-02  2.7e-04  1.5e-01  1.00e+00   2.243959205e+05   2.243959016e+05   8.6e-05  23.94 
+29  6.1e-03  9.8e-05  5.5e-02  1.00e+00   2.243958115e+05   2.243958046e+05   3.1e-05  24.44 
+30  3.9e-04  6.2e-06  3.5e-03  1.00e+00   2.243957535e+05   2.243957530e+05   2.0e-06  25.17 
+31  6.8e-06  1.0e-07  6.0e-05  1.00e+00   2.243957495e+05   2.243957495e+05   3.3e-08  25.80 
+Optimizer terminated. Time: 27.88   
+
+Solve time: 27.889330036
+Barrier iterations: 31

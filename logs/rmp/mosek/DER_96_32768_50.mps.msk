@@ -1,0 +1,88 @@
+Open file 'dat/rmp/DER_96_32768_50.mps'
+Reading started.
+Using 'OBJ' as objective vector
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C66605' (66605) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C68377' (68377) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C72823' (72823) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C74326' (74326) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C77300' (77300) of matrix 'A'.
+MOSEK warning 710: #1 (nearly) zero elements are specified in sparse col 'C77308' (77308) of matrix 'A'.
+Read 10000024 number of A nonzeros in 3.27 seconds.
+Read 20000045 number of A nonzeros in 6.64 seconds.
+Read 20752005 number of A nonzeros in 6.88 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 6.95
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 32864           
+  Cones                  : 0               
+  Scalar variables       : 237856          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 32864           
+  Cones                  : 0               
+  Scalar variables       : 237856          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 32864
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 237856            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 7.42              dense det. time        : 0.00            
+Factor     - ML order time          : 0.13              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3.01e+06          after factor           : 3.01e+06        
+Factor     - dense dim.             : 0                 flops                  : 2.16e+09        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   2.0e+08  3.2e+06  2.4e+09  0.00e+00   2.422986702e+06   0.000000000e+00   1.0e+06  14.16 
+1   6.3e+06  1.0e+05  7.7e+07  -1.00e+00  1.891974624e+07   1.649770690e+07   3.2e+04  14.98 
+2   1.6e+06  2.6e+04  2.0e+07  -9.99e-01  1.077460716e+07   8.358159064e+06   8.4e+03  15.74 
+3   4.5e+05  7.2e+03  5.5e+06  -9.93e-01  4.578743290e+06   2.195300717e+06   2.3e+03  16.51 
+4   3.4e+05  5.5e+03  4.2e+06  -8.82e-01  2.215512767e+06   1.172636734e+05   1.7e+03  17.61 
+5   2.6e+05  4.2e+03  3.2e+06  1.97e+00   1.224796695e+06   5.566296645e+05   1.3e+03  18.43 
+6   7.0e+04  1.1e+03  8.6e+05  2.39e+00   3.826470334e+05   2.969985427e+05   3.6e+02  19.23 
+7   1.7e+04  2.7e+02  2.0e+05  1.36e+00   2.590424536e+05   2.415396455e+05   8.4e+01  19.91 
+8   3.8e+03  6.1e+01  4.7e+04  1.09e+00   2.320038611e+05   2.281474709e+05   1.9e+01  20.71 
+9   1.7e+03  2.8e+01  2.1e+04  1.02e+00   2.282855604e+05   2.265422001e+05   8.7e+00  21.59 
+10  8.1e+02  1.3e+01  1.0e+04  1.01e+00   2.263734981e+05   2.255545991e+05   4.1e+00  22.47 
+11  4.4e+02  7.1e+00  5.4e+03  1.00e+00   2.254895377e+05   2.250446521e+05   2.2e+00  23.29 
+12  2.6e+02  4.1e+00  3.2e+03  1.00e+00   2.249424186e+05   2.246834586e+05   1.3e+00  24.11 
+13  1.3e+02  2.1e+00  1.6e+03  1.00e+00   2.244764451e+05   2.243475130e+05   6.5e-01  24.94 
+14  7.3e+01  1.2e+00  9.0e+02  1.00e+00   2.242645534e+05   2.241906338e+05   3.7e-01  25.82 
+15  4.4e+01  7.1e-01  5.4e+02  1.00e+00   2.241398563e+05   2.240951880e+05   2.2e-01  26.70 
+16  3.4e+01  5.5e-01  4.2e+02  1.00e+00   2.240955753e+05   2.240607895e+05   1.8e-01  27.53 
+17  2.6e+01  4.2e-01  3.2e+02  1.00e+00   2.240558778e+05   2.240297804e+05   1.3e-01  28.26 
+18  2.0e+01  3.1e-01  2.4e+02  1.00e+00   2.240260000e+05   2.240062885e+05   9.9e-02  29.10 
+19  1.5e+01  2.5e-01  1.9e+02  1.00e+00   2.240061554e+05   2.239905745e+05   7.8e-02  29.88 
+20  1.1e+01  1.8e-01  1.4e+02  1.00e+00   2.239858479e+05   2.239746334e+05   5.6e-02  30.74 
+21  7.5e+00  1.2e-01  9.3e+01  1.00e+00   2.239682273e+05   2.239606326e+05   3.8e-02  31.72 
+22  5.2e+00  8.4e-02  6.4e+01  1.00e+00   2.239565572e+05   2.239513096e+05   2.6e-02  32.45 
+23  3.9e+00  6.3e-02  4.9e+01  1.00e+00   2.239500767e+05   2.239460927e+05   2.0e-02  33.17 
+24  3.0e+00  4.8e-02  3.7e+01  1.00e+00   2.239451261e+05   2.239420910e+05   1.5e-02  33.89 
+25  2.3e+00  3.6e-02  2.8e+01  1.00e+00   2.239411585e+05   2.239388712e+05   1.2e-02  34.63 
+26  1.3e+00  2.1e-02  1.6e+01  1.00e+00   2.239359202e+05   2.239346073e+05   6.6e-03  35.50 
+27  7.8e-01  1.3e-02  9.6e+00  1.00e+00   2.239330416e+05   2.239322532e+05   4.0e-03  36.34 
+28  6.6e-01  1.1e-02  8.1e+00  1.00e+00   2.239323344e+05   2.239316726e+05   3.3e-03  37.05 
+29  3.9e-01  6.2e-03  4.8e+00  1.00e+00   2.239307944e+05   2.239304042e+05   2.0e-03  37.85 
+30  1.9e-01  3.1e-03  2.3e+00  1.00e+00   2.239296678e+05   2.239294754e+05   9.7e-04  38.52 
+31  9.9e-02  1.6e-03  1.2e+00  1.00e+00   2.239291159e+05   2.239290164e+05   5.0e-04  39.20 
+32  4.3e-02  6.8e-04  5.2e-01  1.00e+00   2.239287744e+05   2.239287314e+05   2.2e-04  40.18 
+33  3.3e-03  5.4e-05  4.1e-02  1.00e+00   2.239285298e+05   2.239285265e+05   1.7e-05  41.26 
+34  1.0e-03  1.7e-05  1.3e-02  1.00e+00   2.239285125e+05   2.239285114e+05   5.3e-06  42.00 
+35  9.8e-05  1.6e-06  1.2e-03  1.00e+00   2.239285053e+05   2.239285052e+05   4.9e-07  42.91 
+36  2.5e-06  1.4e-08  8.6e-06  1.00e+00   2.239285046e+05   2.239285046e+05   4.3e-09  43.65 
+Optimizer terminated. Time: 46.80   
+
+Solve time: 46.801825339
+Barrier iterations: 36

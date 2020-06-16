@@ -1,0 +1,43 @@
+Read MPS format model from file dat/rmp/DER_24_1024_10.mps
+Reading time = 0.02 seconds
+: 1048 rows, 2376 columns, 51919 nonzeros
+Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+Optimize a model with 1048 rows, 2376 columns and 51919 nonzeros
+Model fingerprint: 0x8dd3d81d
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+01]
+  Objective range  [2e-01, 1e+03]
+  Bounds range     [6e+03, 6e+03]
+  RHS range        [1e+00, 1e+00]
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.332e+04
+ Factor NZ  : 3.281e+04 (roughly 2 MBytes of memory)
+ Factor Ops : 1.139e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.21724402e+08 -2.01164672e+07  2.58e+05 1.30e-02  3.72e+05     0s
+   1   5.98939812e+06 -5.43045624e+06  1.10e+04 3.64e-12  1.79e+04     0s
+   2   6.06714933e+05 -2.38875910e+06  1.00e+03 3.64e-12  2.36e+03     0s
+   3   5.60533337e+03 -6.20323674e+05  3.70e+00 5.46e-12  2.62e+02     0s
+   4   1.53556906e+03  8.56578163e+02  1.03e-11 3.64e-12  2.83e-01     0s
+   5   1.52104871e+03  1.41588506e+03  7.46e-12 3.64e-12  4.38e-02     0s
+   6   1.51145179e+03  1.48449981e+03  3.83e-12 1.82e-12  1.12e-02     0s
+   7   1.49945429e+03  1.49201961e+03  1.37e-11 1.82e-12  3.10e-03     0s
+   8   1.49685941e+03  1.49465410e+03  2.92e-11 3.64e-12  9.19e-04     0s
+   9   1.49607158e+03  1.49540622e+03  5.05e-11 1.82e-12  2.77e-04     0s
+  10   1.49581784e+03  1.49561392e+03  1.06e-10 1.82e-12  8.50e-05     0s
+  11   1.49572179e+03  1.49564795e+03  1.21e-10 3.64e-12  3.08e-05     0s
+  12   1.49569166e+03  1.49566532e+03  1.58e-10 1.82e-12  1.10e-05     0s
+  13   1.49567496e+03  1.49566986e+03  3.06e-10 3.64e-12  2.12e-06     0s
+  14   1.49567105e+03  1.49567051e+03  7.88e-10 2.73e-12  2.26e-07     0s
+  15   1.49567061e+03  1.49567061e+03  3.63e-10 1.82e-12  9.37e-11     0s
+
+Barrier solved model in 15 iterations and 0.04 seconds
+Optimal objective 1.49567061e+03
+
+Solve time: 0.041971898
+Barrier iterations: 15

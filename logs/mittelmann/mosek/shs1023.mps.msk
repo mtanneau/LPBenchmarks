@@ -1,0 +1,136 @@
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1297).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1301).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1306).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1309).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1312).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1313).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1314).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1316).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1317).
+MOSEK warning 53: A numerically large upper bound value  1.0e+09 is specified for variable '' (1318).
+Warning number 53 is disabled.
+Solver name: Mosek
+MOSEK warning 500: The license expires in 3 days.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 133944          
+  Cones                  : 0               
+  Scalar variables       : 444625          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 2973
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 16
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.60            
+Lin. dep.  - number                 : 403             
+Presolve terminated. Time: 19.12   
+GP based matrix reordering started.
+GP based matrix reordering terminated.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 133944          
+  Cones                  : 0               
+  Scalar variables       : 444625          
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 124212
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 433121            conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 5.84              dense det. time        : 1.39            
+Factor     - ML order time          : 1.40              GP order time          : 1.48            
+Factor     - nonzeros before factor : 5.68e+05          after factor           : 2.35e+06        
+Factor     - dense dim.             : 0                 flops                  : 5.94e+08        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.0e+12  8.4e+05  3.9e+08  0.00e+00   4.313212457e+05   3.714065149e+04   1.0e+06  25.65 
+1   1.4e+11  1.2e+05  7.6e+12  -1.00e+00  4.720106104e+05   5.372294069e+10   1.4e+05  26.68 
+2   2.3e+10  1.9e+04  1.2e+12  -1.00e+00  5.584991231e+05   5.167452307e+10   2.3e+04  27.51 
+3   1.3e+10  1.1e+04  6.7e+11  -1.00e+00  6.530925220e+05   5.165254377e+10   1.3e+04  28.05 
+4   3.5e+09  3.0e+03  1.8e+11  -1.00e+00  1.244608089e+06   5.156947629e+10   3.5e+03  28.73 
+5   3.1e+08  2.6e+02  1.6e+10  -1.00e+00  9.603473117e+06   5.138574935e+10   3.1e+02  29.33 
+6   6.6e+07  5.5e+01  3.4e+09  -1.00e+00  4.715986339e+07   5.141967123e+10   6.6e+01  29.92 
+7   1.5e+07  1.3e+01  7.9e+08  -1.00e+00  1.220544106e+09   5.232118523e+10   1.5e+01  30.75 
+8   1.4e+06  1.2e+00  7.2e+07  -9.85e-01  2.327629657e+09   4.993142497e+10   1.4e+00  31.75 
+9   1.2e+05  1.0e-01  6.4e+06  -8.49e-01  1.037782247e+10   3.726746395e+10   1.2e-01  32.73 
+10  3.9e+04  3.3e-02  2.0e+06  -2.56e-02  1.022828469e+10   2.304866124e+10   3.9e-02  33.56 
+11  1.8e+04  1.5e-02  9.1e+05  5.62e-01   6.378895555e+09   1.292521595e+10   1.8e-02  34.31 
+12  1.0e+04  8.5e-03  5.2e+05  8.22e-01   3.963642161e+09   7.863373871e+09   1.0e-02  35.07 
+13  2.0e+03  1.7e-03  1.0e+05  9.29e-01   8.097211317e+08   1.573978016e+09   2.0e-03  36.06 
+14  2.5e+02  2.1e-04  1.3e+04  1.15e+00   1.461327007e+08   2.303781302e+08   2.4e-04  37.05 
+15  9.5e+00  8.0e-06  4.9e+02  1.10e+00   9.384800053e+07   9.694200376e+07   9.3e-06  37.69 
+16  6.2e-01  5.2e-07  3.2e+01  1.00e+00   8.285745743e+05   1.030413950e+06   6.1e-07  38.71 
+17  4.9e-01  4.2e-07  2.5e+01  1.00e+00   7.715699910e+05   9.323285135e+05   4.9e-07  39.49 
+18  2.9e-01  2.4e-07  1.5e+01  1.00e+00   6.056574758e+05   6.989885255e+05   2.8e-07  40.34 
+19  2.7e-01  2.2e-07  1.4e+01  1.00e+00   5.617193803e+05   6.478417786e+05   2.6e-07  40.94 
+20  1.7e-01  1.4e-07  8.6e+00  1.00e+00   4.285180980e+05   4.828775012e+05   1.6e-07  41.69 
+21  1.4e-01  1.2e-07  7.4e+00  1.00e+00   3.704876081e+05   4.170442505e+05   1.4e-07  42.22 
+22  1.2e-01  1.0e-07  6.3e+00  1.00e+00   3.261086752e+05   3.657314419e+05   1.2e-07  42.74 
+23  1.1e-01  9.2e-08  5.6e+00  1.00e+00   3.003540752e+05   3.358419319e+05   1.1e-07  43.34 
+24  2.9e-02  2.5e-08  1.5e+00  1.00e+00   1.329006486e+05   1.424628731e+05   2.9e-08  44.34 
+25  2.2e-02  1.9e-08  1.1e+00  1.00e+00   1.062886694e+05   1.135060568e+05   2.2e-08  44.95 
+26  2.0e-02  1.7e-08  1.0e+00  1.00e+00   9.684538286e+04   1.032705231e+05   1.9e-08  45.64 
+27  1.8e-02  1.5e-08  9.0e-01  1.00e+00   8.816384881e+04   9.386429785e+04   1.7e-08  46.40 
+28  1.6e-02  1.3e-08  8.1e-01  1.00e+00   8.144664153e+04   8.659178358e+04   1.6e-08  47.11 
+29  1.5e-02  1.2e-08  7.5e-01  1.00e+00   7.620744832e+04   8.092287129e+04   1.4e-08  47.74 
+30  1.3e-02  1.1e-08  6.8e-01  1.00e+00   7.114330822e+04   7.544478817e+04   1.3e-08  48.41 
+31  1.2e-02  1.0e-08  6.2e-01  1.00e+00   6.679577289e+04   7.074428622e+04   1.2e-08  49.02 
+32  1.1e-02  8.9e-09  5.4e-01  1.00e+00   6.032521237e+04   6.375823160e+04   1.0e-08  49.71 
+33  9.5e-03  8.0e-09  4.9e-01  1.00e+00   5.601628557e+04   5.909667710e+04   9.3e-09  50.31 
+34  6.0e-03  5.1e-09  3.1e-01  1.00e+00   4.193835150e+04   4.389784640e+04   5.9e-09  50.91 
+35  5.6e-03  4.7e-09  2.9e-01  1.00e+00   3.996950918e+04   4.178120303e+04   5.5e-09  51.51 
+36  4.5e-03  3.8e-09  2.3e-01  1.00e+00   3.520074251e+04   3.666074833e+04   4.4e-09  52.03 
+37  3.6e-03  3.0e-09  1.8e-01  1.00e+00   3.105256814e+04   3.221304274e+04   3.5e-09  52.62 
+38  2.6e-03  2.2e-09  1.4e-01  1.00e+00   2.674352380e+04   2.760030773e+04   2.6e-09  53.46 
+39  2.0e-03  1.7e-09  1.0e-01  1.00e+00   2.372047246e+04   2.437429826e+04   2.0e-09  54.07 
+40  1.7e-03  1.4e-09  8.7e-02  1.00e+00   2.217932286e+04   2.273242728e+04   1.7e-09  54.67 
+41  1.4e-03  1.2e-09  7.3e-02  1.00e+00   2.072542443e+04   2.118582959e+04   1.4e-09  55.20 
+42  1.3e-03  1.1e-09  6.5e-02  1.00e+00   1.991436259e+04   2.032450664e+04   1.2e-09  55.80 
+43  9.7e-04  8.1e-10  5.0e-02  1.00e+00   1.835484900e+04   1.867014472e+04   9.5e-10  56.48 
+44  8.5e-04  7.1e-10  4.4e-02  1.00e+00   1.769107357e+04   1.796744544e+04   8.4e-10  57.18 
+45  8.0e-04  6.7e-10  4.1e-02  1.00e+00   1.738531968e+04   1.764438719e+04   7.8e-10  57.72 
+46  6.2e-04  5.2e-10  3.2e-02  1.00e+00   1.635233311e+04   1.655254943e+04   6.1e-10  58.40 
+47  5.6e-04  4.7e-10  2.9e-02  1.00e+00   1.602395658e+04   1.620645517e+04   5.5e-10  59.00 
+48  4.0e-04  3.4e-10  2.1e-02  1.00e+00   1.505957772e+04   1.519072842e+04   4.0e-10  59.68 
+49  3.1e-04  2.6e-10  1.6e-02  1.00e+00   1.449522291e+04   1.459750063e+04   3.1e-10  60.46 
+50  2.5e-04  2.1e-10  1.3e-02  1.00e+00   1.403794895e+04   1.411799829e+04   2.4e-10  61.15 
+51  2.1e-04  1.8e-10  1.1e-02  1.00e+00   1.379912875e+04   1.386791157e+04   2.1e-10  61.75 
+52  1.7e-04  1.4e-10  8.7e-03  1.00e+00   1.349992856e+04   1.355476310e+04   1.7e-10  62.27 
+53  1.3e-04  1.1e-10  6.9e-03  1.00e+00   1.324826946e+04   1.329172396e+04   1.3e-10  62.96 
+54  1.1e-04  9.1e-11  5.6e-03  1.00e+00   1.305863230e+04   1.309378504e+04   1.1e-10  63.48 
+55  8.1e-05  6.8e-11  4.2e-03  1.00e+00   1.284890046e+04   1.287522322e+04   8.0e-11  64.41 
+56  7.0e-05  5.9e-11  3.6e-03  1.00e+00   1.276051701e+04   1.278325571e+04   6.9e-11  64.94 
+57  5.5e-05  4.6e-11  2.8e-03  1.00e+00   1.263803614e+04   1.265590682e+04   5.4e-11  65.54 
+58  2.7e-05  2.2e-11  1.4e-03  1.00e+00   1.237969456e+04   1.238831168e+04   2.6e-11  66.55 
+59  2.0e-05  1.7e-11  1.0e-03  1.00e+00   1.231999015e+04   1.232642226e+04   1.9e-11  67.23 
+60  1.4e-05  1.2e-11  7.2e-04  1.00e+00   1.226690814e+04   1.227146732e+04   1.4e-11  67.85 
+61  3.9e-06  3.3e-12  2.0e-04  1.00e+00   1.216669223e+04   1.216796678e+04   3.9e-12  68.85 
+62  1.8e-06  1.5e-12  9.3e-05  1.00e+00   1.214234693e+04   1.214293337e+04   1.8e-12  69.78 
+63  1.3e-06  1.1e-12  6.6e-05  1.00e+00   1.213649136e+04   1.213690655e+04   1.3e-12  70.38 
+64  8.1e-07  6.7e-13  4.1e-05  1.00e+00   1.213098453e+04   1.213124517e+04   7.9e-13  70.97 
+65  4.8e-07  4.0e-13  2.4e-05  1.00e+00   1.212708848e+04   1.212724213e+04   4.6e-13  71.58 
+66  4.2e-08  2.4e-14  1.5e-06  1.00e+00   1.212174066e+04   1.212174997e+04   2.8e-14  72.33 
+67  1.6e-08  3.4e-15  2.1e-07  1.00e+00   1.212141407e+04   1.212141541e+04   4.0e-15  72.92 
+68  1.1e-08  1.5e-16  3.4e-09  1.00e+00   1.212135904e+04   1.212135906e+04   6.4e-17  74.06 
+Optimizer terminated. Time: 74.55   
+
+Solve time: 74.57258447
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

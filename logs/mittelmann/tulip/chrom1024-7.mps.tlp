@@ -1,0 +1,36 @@
+Solver name: Tulip
+
+Problem info
+  Name        : 
+  Constraints : 67583
+  Variables   : 73728
+  Non-zeros   : 270324
+
+Reduced problem info
+  Constraints : 67583  (removed 0)
+  Variables   : 73728  (removed 0)
+  Non-zeros   : 270324  (removed 0)
+Presolve time : 0.044s
+
+Optimizer info
+Linear solver options
+  Arithmetic   : Float64
+  Backend      : CHOLMOD
+  System       : Augmented system
+
+ Itn            PObj            DObj     PFeas    DFeas    GFeas       Mu  Time
+   0  +3.7991784e-01  -9.7068355e+04  8.53e+00 1.00e+00 9.71e+04  1.0e+00  0.20
+   1  +1.2413477e+00  -8.2636964e+04  7.62e+00 8.95e-01 8.67e+04  8.9e-01  0.78
+   2  +3.6529720e+00  -9.1673827e+03  1.25e+00 1.43e-01 1.42e+04  1.5e-01  1.01
+   3  +3.9684266e+00  -8.7533013e+01  1.50e-02 6.33e-03 1.71e+02  1.8e-03  1.22
+   4  +3.9702410e+00  +2.5681210e+00  2.31e-04 1.04e-04 2.63e+00  2.7e-05  1.45
+   5  +3.0003826e+00  +1.9683264e+00  1.84e-04 4.81e-05 2.10e+00  2.2e-05  1.67
+   6  +3.0000912e+00  +2.9994534e+00  1.14e-07 2.90e-08 1.30e-03  1.3e-08  1.87
+   7  +3.0000000e+00  +2.9999997e+00  5.70e-11 3.12e-11 6.49e-07  6.7e-12  2.07
+   8  +3.0000000e+00  +3.0000000e+00  2.95e-14 2.56e-14 3.24e-10  3.4e-15  2.26
+Solver exited with status Trm_Optimal
+Solve time: 3.563200674
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

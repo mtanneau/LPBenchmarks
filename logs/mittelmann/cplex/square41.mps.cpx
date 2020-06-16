@@ -1,0 +1,57 @@
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 1
+CPXPARAM_SolutionType                            2
+CPXPARAM_TimeLimit                               10000
+Tried aggregator 1 time.
+LP Presolve eliminated 38406 rows and 38406 columns.
+Reduced LP has 1754 rows, 23828 columns, and 4336554 nonzeros.
+Presolve time = 2.55 sec. (1300.17 ticks)
+Symmetry aggregator did 21938 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.02 sec. (10.45 ticks)
+Parallel mode: none, using 1 thread for barrier
+Number of nonzeros in lower triangle of A*A' = 36969
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.03 sec. (39.93 ticks)
+Summary statistics for Cholesky factor:
+  Rows in Factor            = 304
+  Integer space required    = 341
+  Total non-zeros in factor = 38044
+  Total FP ops to factor    = 6567008
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   2.6250000e+05  -2.3537565e+04  1.03e+06  6.31e+04  5.74e+02  1.00e+00
+   1   6.7555418e+03  -5.9101732e+02  2.66e+04  1.62e+03  1.48e+01  7.94e-02
+   2   2.6419388e+02  -1.9128031e+01  1.03e+03  6.30e+01  5.38e-01  1.05e+00
+   3   5.0806032e+01  -5.8960387e+00  1.94e+02  1.18e+01  1.91e-01  2.93e+00
+   4   2.3126604e+01  -4.4792507e+00  8.54e+01  5.21e+00  1.54e-01  3.34e+00
+   5   1.7912703e+01  -3.3843535e+00  6.42e+01  3.92e+00  1.29e-01  3.50e+00
+   6   1.4398886e+01  -2.6981434e+00  4.93e+01  3.00e+00  1.15e-01  2.77e+00
+   7   1.4538283e+01  -2.4861634e+00  4.78e+01  2.91e+00  1.14e-01  1.61e+00
+   8   1.4119942e+01  -1.6248496e+00  4.31e+01  2.63e+00  1.06e-01  1.61e+00
+   9   1.3273088e+01   4.9538448e-01  3.53e+01  2.15e+00  8.55e-02  2.23e+00
+  10   1.1961663e+01   2.9747672e+00  2.49e+01  1.52e+00  5.94e-02  3.96e+00
+  11   1.1134542e+01   4.2074796e+00  1.81e+01  1.10e+00  4.70e-02  5.39e+00
+  12   1.0769639e+01   5.5412918e+00  1.48e+01  9.05e-01  3.40e-02  8.94e+00
+  13   1.0297023e+01   6.7285197e+00  1.13e+01  6.91e-01  2.13e-02  1.92e+01
+  14   9.6252806e+00   7.7243927e+00  6.38e+00  3.89e-01  1.08e-02  5.12e+01
+  15   9.1064151e+00   8.3349888e+00  2.56e+00  1.56e-01  4.38e-03  2.34e+02
+  16   8.9361168e+00   8.7196334e+00  9.94e-01  6.06e-02  9.59e-04  2.49e+03
+  17   8.8847307e+00   8.7967314e+00  5.34e-01  3.25e-02  2.58e-04  1.89e+04
+  18   8.8441215e+00   8.8065336e+00  1.61e-01  9.80e-03  1.73e-04  3.13e+04
+  19   8.8405472e+00   8.8333487e+00  2.18e-02  1.33e-03  3.44e-05  2.59e+05
+  20   8.8396176e+00   8.8392538e+00  6.65e-05  4.05e-06  1.98e-06  4.58e+06
+  21   8.8396125e+00   8.8396124e+00  5.51e-07  3.36e-08  3.84e-10  5.32e+10
+Barrier time = 0.74 sec. (1795.02 ticks)
+
+Total time on 1 threads = 3.36 sec. (3114.26 ticks)
+Barrier time = 3.41 sec. (3189.41 ticks)
+
+Total time on 1 threads = 3.42 sec. (3189.41 ticks)
+Solver name: CPLEX
+Solve time: 3.420574718
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

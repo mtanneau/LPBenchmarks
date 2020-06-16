@@ -1,0 +1,19 @@
+Original LP has 32768 row(s), 16587 column(s), and 1712128 non-zero(s)
+Working LP has 32970 row(s), 49557 column(s), and 1761684 non-zero(s)
+WARNING: PROBLEM HAS 203 DENSE COLUMNS
+Matrix A has 1761684 non-zeros
+Matrix S = A*A' has 68829386 non-zeros (upper triangle)
+Approximate minimum degree ordering (AMD)...
+Computing Cholesky factorization S = L*L'...
+Matrix L has 104062999 non-zeros
+Guessing initial point...
+Optimization begins...
+  0: obj =   3.083256074e+06; rpi =  3.8e+00; rdi =  2.2e-01; gap =  1.0e+00
+NUMERIC INSTABILITY; SEARCH TERMINATED
+Best point   3.083256074e+06 was reached on iteration 0
+Solver name: GLPK
+Solve time: 3215.15210812
+Termination status: NUMERICAL_ERROR
+Result count: 1
+Primal status: INFEASIBLE_POINT
+Dual status: NO_SOLUTION

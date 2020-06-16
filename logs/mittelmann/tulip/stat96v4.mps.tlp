@@ -1,0 +1,34 @@
+Solver name: Tulip
+
+Problem info
+  Name        : 
+  Constraints : 3173
+  Variables   : 62212
+  Non-zeros   : 490472
+
+Reduced problem info
+  Constraints : 3172  (removed 1)
+  Variables   : 62211  (removed 1)
+  Non-zeros   : 469735  (removed 20737)
+Presolve time : 0.059s
+
+Optimizer info
+Linear solver options
+  Arithmetic   : Float64
+  Backend      : CHOLMOD
+  System       : Augmented system
+
+ Itn            PObj            DObj     PFeas    DFeas    GFeas       Mu  Time
+   0  +0.0000000e+00  -4.2937761e+04  1.85e+01 1.00e+00 4.29e+04  1.0e+00  0.23
+   1  +0.0000000e+00  -8.0078008e+03  6.09e+00 5.84e-01 1.41e+04  3.4e-01  0.36
+   2  +0.0000000e+00  -5.7342559e+02  6.61e-01 5.15e-02 1.52e+03  3.7e-02  0.64
+   3  +0.0000000e+00  -3.6965747e+00  4.26e-03 3.17e-04 1.06e+01  3.0e-04  0.72
+   4  +0.0000000e+00  -4.3819114e-03  1.17e-04 4.90e-07 1.25e-02  3.7e-07  0.81
+   5  +0.0000000e+00  -1.1913943e-05  3.28e-07 4.13e-09 3.41e-05  1.0e-09  0.90
+   6  +0.0000000e+00  -6.0687837e-09  1.68e-10 2.43e-12 1.74e-08  5.1e-13  0.97
+Solver exited with status Trm_Optimal
+Solve time: 1.830417757
+Termination status: OPTIMAL
+Result count: 1
+Primal status: FEASIBLE_POINT
+Dual status: FEASIBLE_POINT

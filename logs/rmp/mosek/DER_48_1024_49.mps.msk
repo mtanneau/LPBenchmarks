@@ -1,0 +1,65 @@
+Open file 'dat/rmp/DER_48_1024_49.mps'
+Reading started.
+Using 'OBJ' as objective vector
+Read 325312 number of A nonzeros in 0.10 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 0.11
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1072            
+  Cones                  : 0               
+  Scalar variables       : 7440            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1072            
+  Cones                  : 0               
+  Scalar variables       : 7440            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 1072
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 7440              conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.03              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 4.90e+04          after factor           : 4.90e+04        
+Factor     - dense dim.             : 0                 flops                  : 1.70e+07        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   6.1e+06  3.2e+06  3.3e+08  0.00e+00   3.290985970e+05   0.000000000e+00   1.0e+06  0.08  
+1   9.6e+04  5.0e+04  5.2e+06  -9.99e-01  4.342150048e+05   1.117439131e+05   1.6e+04  0.10  
+2   2.0e+04  1.0e+04  1.1e+06  -9.54e-01  1.786276061e+05   -1.092437988e+05  3.2e+03  0.11  
+3   9.2e+03  4.7e+03  4.9e+05  -5.08e-01  2.684710148e+04   -1.205801107e+05  1.5e+03  0.12  
+4   5.0e+03  2.6e+03  2.7e+05  3.37e+00   1.974740816e+04   -1.002880912e+04  8.1e+02  0.13  
+5   1.9e+02  9.6e+01  9.9e+03  1.48e+00   3.361313784e+03   2.553646678e+03   3.0e+01  0.14  
+6   8.8e+00  4.6e+00  4.7e+02  1.03e+00   3.010290672e+03   2.972341633e+03   1.4e+00  0.16  
+7   6.0e+00  3.1e+00  3.2e+02  1.00e+00   2.997956622e+03   2.972421129e+03   9.7e-01  0.17  
+8   3.9e+00  2.0e+00  2.1e+02  1.00e+00   2.989665777e+03   2.972936573e+03   6.3e-01  0.18  
+9   2.0e+00  1.0e+00  1.1e+02  1.00e+00   2.981930609e+03   2.973200988e+03   3.3e-01  0.19  
+10  9.8e-01  5.0e-01  5.2e+01  1.00e+00   2.977134949e+03   2.972943262e+03   1.6e-01  0.20  
+11  6.9e-01  3.5e-01  3.7e+01  1.00e+00   2.975668403e+03   2.972712004e+03   1.1e-01  0.21  
+12  2.6e-01  1.3e-01  1.4e+01  1.00e+00   2.973468670e+03   2.972359592e+03   4.2e-02  0.22  
+13  1.2e-01  6.4e-02  6.6e+00  1.00e+00   2.972755394e+03   2.972224592e+03   2.0e-02  0.23  
+14  6.7e-02  3.4e-02  3.6e+00  1.00e+00   2.972446673e+03   2.972160124e+03   1.1e-02  0.24  
+15  2.3e-02  1.2e-02  1.2e+00  1.00e+00   2.972202773e+03   2.972104067e+03   3.7e-03  0.25  
+16  7.6e-03  3.9e-03  4.1e-01  1.00e+00   2.972116288e+03   2.972083703e+03   1.2e-03  0.26  
+17  2.8e-03  1.4e-03  1.5e-01  1.00e+00   2.972088535e+03   2.972076575e+03   4.5e-04  0.27  
+18  2.3e-04  1.2e-04  1.2e-02  1.00e+00   2.972073597e+03   2.972072615e+03   3.7e-05  0.28  
+19  1.2e-05  6.4e-06  6.6e-04  1.00e+00   2.972072166e+03   2.972072113e+03   2.0e-06  0.29  
+20  2.1e-06  1.1e-06  1.1e-04  1.00e+00   2.972072105e+03   2.972072096e+03   3.4e-07  0.30  
+21  4.7e-08  1.2e-08  1.2e-06  1.00e+00   2.972072094e+03   2.972072094e+03   3.7e-09  0.31  
+Optimizer terminated. Time: 0.34    
+
+Solve time: 0.342254281
+Barrier iterations: 21

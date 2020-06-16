@@ -1,0 +1,46 @@
+Read MPS format model from file dat/rmp/env-diss_3780_15.mps
+Reading time = 0.07 seconds
+: 3865 rows, 15168 columns, 179621 nonzeros
+Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+Optimize a model with 3865 rows, 15168 columns and 179621 nonzeros
+Model fingerprint: 0xa20da63c
+Coefficient statistics:
+  Matrix range     [9e-08, 2e+00]
+  Objective range  [1e-02, 1e+04]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 8e+01]
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.571e+04
+ Factor NZ  : 5.067e+04 (roughly 8 MBytes of memory)
+ Factor Ops : 6.745e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.00285337e+07  0.00000000e+00  8.18e+04 8.00e+02  9.23e+04     0s
+   1   3.46355762e+06 -1.00211517e+07  1.38e+04 1.54e+03  1.65e+04     0s
+   2   4.32290194e+05 -1.18263981e+07  1.44e+03 7.56e+02  2.64e+03     0s
+   3   9.67285643e+04 -8.56948043e+06  3.93e+01 3.91e+02  9.35e+02     0s
+   4   6.20302742e+04 -4.78499300e+05  7.03e-08 1.82e+01  5.11e+01     0s
+   5   1.97454621e+04 -1.66747008e+05  3.25e-08 4.95e+00  1.60e+01     0s
+   6  -2.88733064e+02 -6.01099813e+04  8.37e-09 1.13e+00  4.68e+00     0s
+   7  -1.43341709e+04 -3.54806384e+04  1.34e-09 4.21e-01  1.62e+00     0s
+   8  -1.77845350e+04 -2.22496237e+04  4.08e-10 3.17e-02  3.11e-01     0s
+   9  -1.89741423e+04 -2.13128315e+04  2.09e-10 1.12e-02  1.60e-01     0s
+  10  -2.02316135e+04 -2.08828362e+04  1.01e-10 9.70e-04  4.34e-02     0s
+  11  -2.05099743e+04 -2.08402525e+04  1.44e-10 2.73e-04  2.19e-02     0s
+  12  -2.06666777e+04 -2.08111969e+04  1.39e-10 4.08e-05  9.55e-03     0s
+  13  -2.07871128e+04 -2.08066939e+04  6.51e-10 3.07e-05  1.31e-03     0s
+  14  -2.07941483e+04 -2.07959547e+04  5.43e-10 2.70e-06  1.21e-04     0s
+  15  -2.07946642e+04 -2.07947793e+04  2.09e-10 1.91e-07  7.71e-06     0s
+  16  -2.07946819e+04 -2.07946906e+04  6.10e-10 1.33e-08  5.87e-07     0s
+  17  -2.07946831e+04 -2.07946835e+04  3.13e-10 4.06e-10  2.35e-08     0s
+  18  -2.07946832e+04 -2.07946832e+04  2.61e-10 3.64e-12  4.77e-11     0s
+
+Barrier solved model in 18 iterations and 0.13 seconds
+Optimal objective -2.07946832e+04
+
+Solve time: 0.130826129
+Barrier iterations: 18

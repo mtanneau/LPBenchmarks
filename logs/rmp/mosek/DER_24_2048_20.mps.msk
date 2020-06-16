@@ -1,0 +1,62 @@
+Open file 'dat/rmp/DER_24_2048_20.mps'
+Reading started.
+Using 'OBJ' as objective vector
+Read 169631 number of A nonzeros in 0.06 seconds.
+Using 'RHS1' as rhs vector
+Using 'BND1' as bound vector
+Reading terminated. Time: 0.06
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 2072            
+  Cones                  : 0               
+  Scalar variables       : 7240            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 2072            
+  Cones                  : 0               
+  Scalar variables       : 7240            
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 2072
+Optimizer  - Cones                  : 0
+Optimizer  - Scalar variables       : 7240              conic                  : 0               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.02              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 4.89e+04          after factor           : 4.89e+04        
+Factor     - dense dim.             : 0                 flops                  : 5.14e+06        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.2e+07  3.2e+06  1.6e+08  0.00e+00   1.626155879e+05   0.000000000e+00   1.0e+06  0.04  
+1   1.6e+05  4.1e+04  2.1e+06  -1.00e+00  1.743960931e+05   1.497724043e+04   1.3e+04  0.05  
+2   6.9e+04  1.8e+04  9.2e+05  -9.31e-01  6.151812222e+04   -8.152186228e+04  5.6e+03  0.06  
+3   2.6e+04  6.7e+03  3.5e+05  -2.07e-02  1.286563383e+04   -1.820563718e+04  2.1e+03  0.07  
+4   2.5e+03  6.3e+02  3.2e+04  1.67e+00   4.962066646e+03   2.927303886e+03   2.0e+02  0.07  
+5   6.1e+01  1.6e+01  8.0e+02  1.03e+00   2.973101550e+03   2.923582241e+03   4.9e+00  0.08  
+6   3.9e+01  1.0e+01  5.1e+02  1.00e+00   2.952000006e+03   2.920192548e+03   3.2e+00  0.09  
+7   1.9e+01  4.8e+00  2.4e+02  1.00e+00   2.933030351e+03   2.917900869e+03   1.5e+00  0.10  
+8   1.1e+01  2.9e+00  1.5e+02  1.00e+00   2.925405961e+03   2.916100464e+03   9.3e-01  0.11  
+9   4.4e+00  1.1e+00  5.8e+01  1.00e+00   2.917569904e+03   2.914003692e+03   3.5e-01  0.12  
+10  3.1e+00  8.0e-01  4.1e+01  1.00e+00   2.916070297e+03   2.913529480e+03   2.5e-01  0.13  
+11  1.2e+00  3.2e-01  1.6e+01  1.00e+00   2.913776038e+03   2.912771320e+03   1.0e-01  0.14  
+12  4.6e-01  1.2e-01  6.0e+00  1.00e+00   2.912794311e+03   2.912421935e+03   3.7e-02  0.15  
+13  1.5e-01  3.9e-02  2.0e+00  1.00e+00   2.912392069e+03   2.912267550e+03   1.2e-02  0.15  
+14  4.4e-02  1.1e-02  5.8e-01  1.00e+00   2.912243235e+03   2.912207312e+03   3.6e-03  0.16  
+15  1.5e-02  4.0e-03  2.0e-01  1.00e+00   2.912203300e+03   2.912190637e+03   1.3e-03  0.17  
+16  2.0e-03  5.0e-04  2.6e-02  1.00e+00   2.912184325e+03   2.912182722e+03   1.6e-04  0.17  
+17  2.1e-05  5.5e-06  2.8e-04  1.00e+00   2.912181418e+03   2.912181400e+03   1.7e-06  0.18  
+18  1.9e-07  4.9e-08  2.5e-06  1.00e+00   2.912181384e+03   2.912181384e+03   1.6e-08  0.18  
+Optimizer terminated. Time: 0.20    
+
+Solve time: 0.204771627
+Barrier iterations: 18

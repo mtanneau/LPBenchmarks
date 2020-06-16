@@ -1,0 +1,41 @@
+Read MPS format model from file dat/rmp/DER_48_1024_10.mps
+Reading time = 0.04 seconds
+: 1072 rows, 2448 columns, 100376 nonzeros
+Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+Optimize a model with 1072 rows, 2448 columns and 100376 nonzeros
+Model fingerprint: 0x8f61e279
+Coefficient statistics:
+  Matrix range     [3e-04, 1e+01]
+  Objective range  [4e-01, 1e+03]
+  Bounds range     [6e+03, 6e+03]
+  RHS range        [1e+00, 1e+00]
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.727e+04
+ Factor NZ  : 5.874e+04 (roughly 2 MBytes of memory)
+ Factor Ops : 3.452e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.69156320e+08 -5.59596876e+07  3.56e+05 3.32e-02  6.30e+05     0s
+   1   1.72898206e+07 -1.38908599e+07  2.00e+04 2.73e-12  3.97e+04     0s
+   2   1.74721631e+06 -3.80595624e+06  1.88e+03 3.64e-12  4.71e+03     0s
+   3   2.26949969e+04 -1.47702396e+06  9.56e+00 1.82e-12  6.09e+02     0s
+   4   3.16494217e+03  1.27935462e+03  6.05e-12 1.82e-12  7.55e-01     0s
+   5   3.06880895e+03  2.67454151e+03  3.01e-12 1.82e-12  1.58e-01     0s
+   6   3.04063749e+03  2.98115898e+03  3.09e-12 1.82e-12  2.38e-02     0s
+   7   3.02719691e+03  3.01122816e+03  1.37e-11 1.82e-12  6.40e-03     0s
+   8   3.02095763e+03  3.01689044e+03  1.78e-11 3.64e-12  1.63e-03     0s
+   9   3.01924064e+03  3.01875013e+03  5.11e-11 1.82e-12  1.97e-04     0s
+  10   3.01898884e+03  3.01889222e+03  3.10e-10 2.73e-12  3.87e-05     0s
+  11   3.01894941e+03  3.01890854e+03  2.11e-09 1.82e-12  1.64e-05     0s
+  12   3.01891810e+03  3.01891495e+03  1.18e-09 1.82e-12  1.26e-06     0s
+  13   3.01891592e+03  3.01891590e+03  1.48e-09 2.73e-12  7.57e-09     0s
+
+Barrier solved model in 13 iterations and 0.09 seconds
+Optimal objective 3.01891592e+03
+
+Solve time: 0.08745413
+Barrier iterations: 13
