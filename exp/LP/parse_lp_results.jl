@@ -119,7 +119,7 @@ function print_table(res)
 
     # Individual times
     @printf "\\midrule\n"
-    for finst in PLATO_INSTANCES
+    for finst in sort(PLATO_INSTANCES)
         @printf "%-16s" replace(finst[1:end-4], "_" => "\\_")
         for solver in SOLVERS
             @printf " & "

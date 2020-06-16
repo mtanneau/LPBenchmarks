@@ -25,7 +25,7 @@ See [here](https://plato.asu.edu/ftp/lpbar.html).
 See instructions at [DER instances](https://github.com/mtanneau/DER_experiments) and [TSSP instances](https://github.com/mtanneau/TSSP.jl) on how to generate the problems.
 
 
-## Building a sysimage
+## Building a system image
 
 1. Create pre-compilation statements
 
@@ -34,12 +34,12 @@ Run the `snoop.jl` script at the root of this directory
 julia --trace-compile=precompile.jl --project snoop.jl
 ```
 
-2. Create the sysimage 
+2. Create the system image 
 
 ```julia
 using PackageCompiler
 
-PackageCompiler.create_sysimage([:MathOptInterface, :Clp, :CPLEX, :ECOS, :GLPK, :Gurobi, :Mosek, :MosekTools, :QPSReader, :Tulip, :DoubleFloats, :LDLFactorizations, :UnitBlockAngular], project=".", sysimage_path="JuliaLP.so", precompile_statements_file="precompile.jl");
+PackageCompiler.create_sysimage([:MathOptInterface, :Clp, :CPLEX, :ECOS, :GLPK, :Gurobi, :Mosek, :MosekTools, :QPSReader, :Tulip, :DoubleFloats, :UnitBlockAngular], project=".", sysimage_path="JuliaLP.so", precompile_statements_file="precompile.jl");
 ```
 
 ## Running experiments
@@ -47,7 +47,7 @@ PackageCompiler.create_sysimage([:MathOptInterface, :Clp, :CPLEX, :ECOS, :GLPK, 
 ### Mittelmann benchmark instances
 
 ```bash
-julia --sysimage=JuliaLP.so --project src/LP/tulip.jl dat/netlib/afiro.mps
+julia --sysimage=JuliaLP.so --project src/LP/tulip.jl dat/plato/cont1.mps
 ```
 
 ### Structured master problems
