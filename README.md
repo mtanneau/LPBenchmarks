@@ -6,7 +6,7 @@ Instructions on how to run experiments in the paper.
 
 1. Install Julia
 
-2. Install commercial solvers CPLEX, Gurobi and CPLEX
+2. Install commercial solvers CPLEX, Gurobi and Mosek
     
 3. Instantiate the environment. This will download and build open-source solvers Clp, ECOS, GLPK and Tulip.
     ```julia
